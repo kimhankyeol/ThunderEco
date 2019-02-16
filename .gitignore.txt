@@ -1,0 +1,4 @@
+*/target/*
+*/WEB-INF/classes/*
+*/config/context-datasource.xml
+*/DispatherServlet-servlet.xml
