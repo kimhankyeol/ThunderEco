@@ -3,7 +3,7 @@
 <html style="overflow:auto;">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>에어파파1</title>
+<title>수처리</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="all,follow">
@@ -202,28 +202,46 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-12" style="text-align:center;">
 											<h2 style="padding:20px;">주요 적용 · 설치 장소</h2>
+											<h3 style="padding:20px;">축산 · 생활 · 산업<h3>
 										</div>
 										<div class="col-lg-12">
 											<hr>
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>축산 · 생활 · 산업</h2><br/>
-												<b>BOD  97.3% ~ 98.5% 감소</b><br class="m_break"><br class="pc_break">
+												<h2>BOD  97.3% ~ 98.5% 감소</h2><br/>
 												-13,000 ~ 18,000mg/L의 오폐수 농도를 350mg/L 이하로 감소<br class="m_break"><br class="pc_break"><br/>
-												<b>DO(용존산소) 농도 조절 및 살균</b><br class="m_break"><br class="pc_break">
-												-산소용해기에 의한 용존산소 농도 조절<br class="m_break"><br class="pc_break">
-												-폐수에 포함된 악취물질 분해에 용이<br class="m_break"><br class="pc_break">
-												-OH-Radical에 의한 부패균 등 모든 균의 살균에 도움<br class="m_break"><br class="pc_break"><br/>
-												<b>악취 저감 및 색도 보정</b><br class="m_break"><br class="pc_break">
-												-오폐수의 악취 물질을 분해, 악취 대폭 절감
-												-OH-Radical에 의한 색도 보정<br class="m_break"><br class="pc_break">
-												
-											
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/waterTreatmentDetail.jpg" style="width:100%;"/>
+											<img src="/img/waterTreatment2.jpg" style="width:100%;"/>
+										</div>
+										<div class="col-lg-12">
+											<hr>
+										</div>
+											<div class="col-lg-6 text-vertical">
+											<span>
+												<h2>DO(용존산소) 농도 조절 및 살균</h2><br class="m_break"><br class="pc_break">
+												-산소용해기에 의한 용존산소 농도 조절<br class="m_break"><br class="pc_break">
+												-폐수에 포함된 악취물질 분해에 용이<br class="m_break"><br class="pc_break">
+												-OH-Radical에 의한 부패균 등 모든 균의 살균에 도움<br class="m_break"><br class="pc_break"><br/>
+											</span>
+										</div>
+										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
+											<img src="/img/waterTreatment1.jpg" style="width:100%;"/>
+										</div>
+										<div class="col-lg-12">
+											<hr>
+										</div>
+											<div class="col-lg-6 text-vertical">
+											<span>
+												<h2>악취 저감 및 색도 보정</h2><br class="m_break"><br class="pc_break">
+												-오폐수의 악취 물질을 분해, 악취 대폭 절감
+												-OH-Radical에 의한 색도 보정<br class="m_break"><br class="pc_break">
+											</span>
+										</div>
+										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
+											<img src="/img/waterTreatment3.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>
