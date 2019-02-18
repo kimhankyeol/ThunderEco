@@ -217,7 +217,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%"/>
+											<img src="/img/detailAirpapa2.jpg" style="width:100%"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>
@@ -231,7 +231,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%;"/>
+											<img src="/img/detailAirpapa3.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>

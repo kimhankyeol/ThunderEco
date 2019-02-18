@@ -125,7 +125,7 @@ ul li a h5 {
 				 		<!-- 제품상세 탭 시작 -->
 				    	<div role="tabpanel" class="tab-pane active" id="home" style="padding-top:20px;">
 					    	<!-- <h3 style="text-align:center; padding-top:20px;">제품소개</h3> --><!-- 해당 머릿글 삭제하는게 예뻐 보일 듯 -윤영 -->
-						 	<div style="background:url(/img/airpapa1.jpg) center center; padding:100px 0;">
+						 	<div style="background:url(/img/mainTest3.jpg) center center; padding:100px 0;">
 						 		<div class="container" style="padding:inherit;">
 									<div class="row">
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
@@ -217,7 +217,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%;"/>
+											<img src="/img/DetailMarin1.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>
@@ -230,7 +230,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%"/>
+											<img src="/img/DetailMarin2.jpg" style="width:100%"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>
@@ -244,7 +244,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%;"/>
+											<img src="/img/DetailMarin3.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>
@@ -258,7 +258,7 @@ ul li a h5 {
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/detailAirpapa1.jpg" style="width:100%;"/>
+											<img src="/img/DetailMarin4.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>

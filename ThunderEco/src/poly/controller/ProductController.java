@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -33,6 +34,8 @@ public class ProductController {
 	@RequestMapping(value = "/growthEco/farmSystem")
 	public String farm(HttpServletRequest req, HttpServletResponse res) throws Exception {
 		log.info(this.getClass() + " airEco/airpapa Start!!!");
+		
+		
 		log.info(this.getClass() + " airEco/airpapaEnd!!!");
 		return "/growthEco/farmSystem";
 	}
@@ -92,4 +95,22 @@ public class ProductController {
 		log.info(this.getClass() + " airEco/airpapaEnd!!!");
 		return "/livingEco/toolWash";
 	}
+	
+	//준비중입니다.
+	@RequestMapping(value= "/ready")
+	public String ready (Model model)throws Exception{
+		log.info(this.getClass() + ".ready start ");
+		String msg ="준비중입니다.";
+		String url = "/";
+		
+		model.addAttribute("msg", msg);
+		model.addAttribute("url",url);
+		
+		msg = null;
+		url = null;
+		
+		log.info(this.getClass() + ".ready end ");
+		return "/alert";
+	}
+	
 }
