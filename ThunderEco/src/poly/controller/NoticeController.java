@@ -92,12 +92,13 @@ public class NoticeController {
 		String urlConPath="";
 		//이동 전에 폴더
 		String tempPath=req.getSession().getServletContext().getRealPath("/tempImg/");
+		log.info("경로 1대1 tempImg:"+tempPath);
 		//이동 후에 폴더
 		String newFilePath=req.getSession().getServletContext().getRealPath("/qnaImg/");
 		String fileName="";
 		//temp 에서 - > notice로
 		for (int i = 0; i<imgList.size();i++) {
-			urlConPath=imgList.get(i).toString().replace("http://www.thundereco.com/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
+			urlConPath=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉1:"+urlConPath);
 			fileName=urlConPath.replace(tempPath, "");//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉2:"+fileName);
@@ -109,6 +110,7 @@ public class NoticeController {
 		nDTO.setNoticeContent(content.replaceAll("tempImg","qnaImg"));
 		
 		int result = noticeService.insertQNA(nDTO);
+		log.info("result" + result);
 		String msg = "";
 		String url = "";
 		
@@ -266,7 +268,7 @@ public class NoticeController {
 			String fileName="";
 			//temp 에서 - > notice로
 			for (int i = 0; i<imgList.size();i++) {
-				urlConPath=imgList.get(i).toString().replace("http://www.thundereco.com/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
+				urlConPath=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
 				System.out.println("파일이름 확인하라잉1:"+urlConPath);
 				fileName=urlConPath.replace(tempPath, "");//fileUrl을 삭제해 파일명만구함
 				System.out.println("파일이름 확인하라잉2:"+fileName);
@@ -544,7 +546,7 @@ public class NoticeController {
 			}else {
 				Iterator i1 = imgList.iterator();
 				while(i1.hasNext()) {
-					compFile=i1.next().toString().replace("http://www.thundereco.com/noticeUpdImg/", "");
+					compFile=i1.next().toString().replace("http://thunder-echo.co.kr/noticeUpdImg/", "");
 					File file = new File(newFilePath+compFile);
 					file.delete();
 					result = noticeService.deleteNotice(nDTO);
@@ -713,7 +715,7 @@ public class NoticeController {
 		String fileName="";
 		//temp 에서 - > notice로
 		for (int i = 0; i<imgList.size();i++) {
-			urlConPath=imgList.get(i).toString().replace("http://www.thundereco.com/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
+			urlConPath=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉1:"+urlConPath);
 			fileName=urlConPath.replace(tempPath, "");//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉2:"+fileName);
@@ -793,7 +795,7 @@ public class NoticeController {
 		nDTO.setNoticeContent(content);
 	
 		/*
-		 urlConPath=imgList.get(i).toString().replace("http://www.thundereco.com/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
+		 urlConPath=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", tempPath);//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉1:"+urlConPath);
 			fileName=urlConPath.replace(tempPath, "");//fileUrl을 삭제해 파일명만구함
 			System.out.println("파일이름 확인하라잉2:"+fileName);
@@ -821,14 +823,14 @@ public class NoticeController {
 		for (int i = 0; i<imgList.size();i++) {
 		
 			//기존에 있는 폴더에서 비교
-			compFile=imgList.get(i).toString().replace("http://www.thundereco.com/noticeUpdImg/", "");
+			compFile=imgList.get(i).toString().replace("http://thunder-echo.co.kr/noticeUpdImg/", "");
 			File file = new File(req.getSession().getServletContext().getRealPath("/noticeUpdImg/")+compFile);
 			boolean isExists = file.exists();
 			if(isExists) {
 				System.out.println("파일 존재 "+fileName);
 			}
 			else {
-				fileName=imgList.get(i).toString().replace("http://www.thundereco.com/tempImg/", "");
+				fileName=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", "");
 				System.out.println("파일 존재하지 않음 "+fileName);
 				StringUtil.fileMove(tempPath+fileName, newFilePath+fileName);
 				nDTO.setNoticeContent(content.replaceAll("tempImg","noticeUpdImg"));
@@ -852,9 +854,9 @@ public class NoticeController {
 		 Collection<String> imgDelFile = CollectionUtils.subtract(comList, imgList);
 	
 		 for(String imgPath:imgDelFile) {
-			 File file2= new File(imgPath.replace("http://www.thundereco.com/noticeUpdImg/", newFilePath));
+			 File file2= new File(imgPath.replace("http://thunder-echo.co.kr/noticeUpdImg/", newFilePath));
 			 file2.delete();
-			 System.out.println("test:"+imgPath.replace("http://www.thundereco.com/noticeUpdImg/", newFilePath));
+			 System.out.println("test:"+imgPath.replace("http://thunder-echo.co.kr/noticeUpdImg/", newFilePath));
 		 }
 		
 		
@@ -917,7 +919,7 @@ public class NoticeController {
             //서버-> 클라이언트로 텍스트 전송
             printWriter = response.getWriter();
             //String fileUrl=StringUtil.replaceRevSlash(request.getSession().getServletContext().getRealPath("/tempImg/")+ reFileName);//url경로
-            String fileUrl=StringUtil.replaceRevSlash("http://www.thundereco.com/tempImg/"+ reFileName);//url경로
+            String fileUrl=StringUtil.replaceRevSlash("http://thunder-echo.co.kr/tempImg/"+ reFileName);//url경로
             
             printWriter.println("<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction("
                     + callback

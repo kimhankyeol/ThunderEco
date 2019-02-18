@@ -125,7 +125,7 @@ ul li a h5 {
 				<!-- 제품상세 탭 시작 -->
 				<div role="tabpanel" class="tab-pane active" id="home" style="padding-top:20px;">
 					<!-- <h3 style="text-align:center; padding-top:20px;">제품소개</h3> --><!-- 해당 머릿글 삭제하는게 예뻐 보일 듯 -윤영 -->
-					<div style="background:url(/img/airpapa1.jpg) center center; padding:100px 0;">
+					<div style="background:url(/img/smellDelete3.jpg) center center; padding:100px 0;">
 						<div class="container" style="padding:inherit;">
 							<div class="row">
 								<div style="color:#ffffff;"class="col-lg-12 text-center">
