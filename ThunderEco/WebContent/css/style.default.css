@@ -37,7 +37,12 @@
 	
 }
 /* main font size change  end*/
-
+.pc_break {
+	display : inline-block !important;
+}
+.m_break {
+	display : none !important;
+	}
 a, span, i, small {
 	display: inline-block;
 	text-decoration: none
@@ -1864,6 +1869,12 @@ footer.main-footer .copyrights ul.payment-list img {
 	footer.main-footer .main-block div[class*='col-']:last-of-type {
 		margin-bottom: 0;
 		text-align: left;
+	}
+	.m_break {
+		display : inline-block !important;
+	}
+	.pc_break {
+		display : none !important;
 	}
 	
 }

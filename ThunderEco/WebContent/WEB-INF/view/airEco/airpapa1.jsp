@@ -32,12 +32,6 @@
 span{
 	padding-left:10%;
 }
-.pc_break {
-	display : inline-block !important;
-}
-.m_break {
-	display : none !important;
-	}
 ul li a:hover, ul li a:focus {
 	color: #fff; 
 	font-weight: bold; 
@@ -66,12 +60,6 @@ ul li a h5 {
 	}
 	.tab-content section {
 		padding: 50px 0 0 0;
-	}
-	.m_break {
-		display : inline-block !important;
-	}
-	.pc_break {
-		display : none !important;
 	}
 	.effect-table {
 		padding-left: 0%;

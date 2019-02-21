@@ -32,12 +32,6 @@
 span{
 	padding-left:10%;
 }
-.pc_break {
-	display : inline-block !important;
-}
-.m_break {
-	display : none !important;
-	}
 ul li a:hover, ul li a:focus {
 	color: #fff; 
 	font-weight: bold; 
@@ -66,12 +60,6 @@ ul li a h5 {
 	}
 	.tab-content section {
 		padding: 50px 0 0 0;
-	}
-	.m_break {
-		display : inline-block !important;
-	}
-	.pc_break {
-		display : none !important;
 	}
 	.effect-table {
 		padding-left: 0%;
@@ -131,15 +119,14 @@ ul li a h5 {
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
 											<h5>
 												수소 클러스터 작용을 통한 이론화 작용, <br class="m_break">전자유기작용 및 활성기체를 생성하여 <br class="m_break">
-											</h5>
-											<h5>
+												<br class="pc_break">
 												산화, 환원, 응집반응으로 수질정화, <br class="m_break">살균하여 최상의 수질상태 유지 시스템
 											</h5>
 											<h1>
-												친환경 수산 시스템
+												친환경 수산<br class="m_break"> 시스템
 											</h1>
 											<h5>
-												수질정화, 살균, 수중 고농도산소 함유, 오염물질분해제거
+												수질정화, 살균, 수중 고농도산소 함유,<br class="m_break"> 오염물질분해제거
 											</h5>
 										</div>
 									</div>
@@ -148,8 +135,8 @@ ul li a h5 {
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
 								<h5 style="text-align:center; display: block;">
-									썬더볼트 융합코어시스템은 수산이온을 물 속에 다량 용해시키고, 
-									<br class="m_break"><br class="pc_break">
+									썬더볼트 융합코어시스템은 수산이온을<br class="m_break"> 물 속에 다량 용해시키고, <br class="m_break">
+									<br class="pc_break">
 									수중의 용존산소를 크게 향상시켜서<br class="m_break"> 고농도 용존산소를 함유하게 됩니다.								
 								</h5>
 								<div class="row" style="padding-top:20px;">
@@ -162,8 +149,8 @@ ul li a h5 {
 												<td>
 													<b>세균, 유해바이러스의 살균</b>
 													<p>
-														수산 시스템과 수소 클러스터 반응에 의해 생성되는 OH-Radical 등의<br class="pc_break"><br class="m_break">
-														활성종이 수중의 세균, 바이러스를 매우 효율적으로 살균
+														수산 시스템과 수소 클러스터<br class="m_break"> 반응에 의해 생성되는 OH-Radical 등의<br class="pc_break">
+														활성종이 수중의 세균, <br class="m_break">바이러스를 매우 효율적으로 살균
 													</p>
 												</td>
 											</tr>
@@ -174,8 +161,8 @@ ul li a h5 {
 												<td>
 													<b>수중의 고농도산소 함유</b>
 													<p>
-														수산이온을 물 속에 다량 용해시키고,<br class="m_break"><br class="pc_break">
-														수중의 용존산소를 크게 향상시켜서 고농도 용존산소를 함유
+														수산이온을 물 속에 용해시키고,<br class="m_break"><br class="pc_break">
+														수중의 용존산소를 크게 향상시켜서 <br class="m_break"> 고농도 용존산소를 함유
 													</p>
 												</td>
 											</tr>
@@ -184,10 +171,11 @@ ul li a h5 {
 													<b>3</b>
 												</td>
 												<td>
-													<b>오염물질분해 제거, 최상의 수질상태 유지</b>
+													<b>오염물질분해 제거, 최상의<br class="m_break"> 수질상태 유지</b>
 													<p>
-														전기전자에너지를 유입되는 신선한 외기에 인가하여 OH-Radical 등의 활성기체를 생성하고<br class="m_break"><br class="pc_break">
-														미세기포로 활성종에 함유된 공기를 공합하여 수중 오염물질을 정화하는 신기술
+														전기전자에너지를 유입되는<br class="m_break"> 신선한 외기에 인가하여<br class="m_break"> OH-Radical 등의 활성기체를<br class="m_break"> 생성하고
+														<br class="pc_break">
+														미세기포로 활성종에<br class="m_break"> 함유된 공기를 공합하여<br class="m_break"> 수중 오염물질을 정화하는 신기술
 													</p>
 												</td>
 											</tr>
@@ -204,16 +192,16 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-12" style="text-align:center;">
 											<h2 style="padding:20px;">주요 적용 · 설치 장소</h2>
-											<h4 style="padding:20px;">수족관 / 어창 / 활어 수송 차량 / 치어 사육장</h4>
+											<h4 style="padding:20px;">수족관 · 어창 · 치어 사육장 · <br class="m_break">활어 수송 차량</h4>
 										</div>
 										<div class="col-lg-12">
 											<hr>
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h4>활어의 활동성 증가와 면역력 증진</h4><br/>
-												산화질소의 지속적인 공급으로 살균 및 항산화작용으로<br class="m_break"><br class="pc_break">
-												스트레스 해소, 활어의 활동성 증가와 면역력 증진으로 체질개선
+												<h4>활어의 활동성 증가와<br class="m_break"> 면역력 증진</h4><br/>
+												산화질소의 지속적인 공급으로 살균 및<br class="m_break"> 항산화작용으로<br class="pc_break">
+												스트레스 해소, 활어의<br class="m_break"> 활동성 증가와 면역력 증진으로 체질개선
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -225,8 +213,8 @@ ul li a h5 {
 										<div class="col-lg-6 text-vertical">
 											<span>
 												<h4>위생적인 먹거리 제공</h4><br/>
-												활어의 생선회 이용 시 병원균이 전혀 없는 생선회 제공,<br class="m_break"><br class="pc_break">
-												육질 개선, 비린내 없는 깔끔한 맛과 위생적인 먹기리 제공
+												활어의 생선회 이용 시 병원균이 전혀 없는<br class="m_break"> 생선회 제공,<br class="pc_break">
+												육질 개선, 비린내 없는 깔끔한 맛과<br class="m_break"> 위생적인 먹기리 제공
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -238,8 +226,9 @@ ul li a h5 {
 										<hr>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h4>물 속의 독소 제거, 활어의 체세포 활성화</h4><br/>
-												자연상태로 물 속의 독소 제거, 활어의 체세포 활성화로<br class="m_break"><br class="pc_break">
+												<h4>물 속의 독소 제거, 활어의<br class="m_break"> 체세포 활성화</h4><br/>
+												자연상태로 물 속의 독소 제거, 활어의 체세포<br class="m_break"> 활성화로
+												<br class="pc_break">
 												지극히 건강한 활어 제공
 											</span>
 										</div>
@@ -251,10 +240,10 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h4>수질정화, 병원성 세균 살균, 오염물질 악취제거</h4><br/>
-												활성이온의 생성으로 인한 물 속의 분비물, 배설물 분해로<br class="m_break"><br class="pc_break">
-												수족관 물의 수질정화, 각종 병원성 세균 살균, <br class="m_break"><br class="pc_break">
-												수인성 전염병 예방, 오염물질 제거와 악취 제거
+												<h4>수질정화, 병원성 세균 살균,<br class="m_break"> 오염물질 악취제거</h4><br/>
+												활성이온의 생성으로 인한 물 속의 분비물,<br class="m_break"> 배설물 분해로<br class="pc_break">
+												수족관 물의 수질정화,<br class="m_break"> 각종 병원성 세균 살균, <br class="pc_break">
+												수인성 전염병 예방,<br class="m_break">오염물질 제거와 악취 제거
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">

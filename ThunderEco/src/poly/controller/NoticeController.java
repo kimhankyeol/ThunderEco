@@ -734,7 +734,7 @@ public class NoticeController {
 		
 		if(result == 1) {
 			msg="등록되었습니다.";
-			url="/noticeList.do?pagenum=1&contentnum=10"; //일단은 홈으로
+			url="/adminNoticeList.do?pagenum=1&contentnum=10"; //일단은 홈으로
 			model.addAttribute("msg",msg);
 			model.addAttribute("url",url);
 		}else {

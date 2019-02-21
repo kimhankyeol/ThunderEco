@@ -33,12 +33,6 @@
 span{
 	padding-left:10%;
 }
-.pc_break {
-	display : inline-block !important;
-}
-.m_break {
-	display : none !important;
-	}
 ul li a:hover, ul li a:focus {
 	color: #fff; 
 	font-weight: bold; 
@@ -67,12 +61,6 @@ ul li a h5 {
 	}
 	.tab-content section {
 		padding: 50px 0 0 0;
-	}
-	.m_break {
-		display : inline-block !important;
-	}
-	.pc_break {
-		display : none !important;
 	}
 	.effect-table {
 		padding-left: 0%;
@@ -130,7 +118,7 @@ ul li a h5 {
 							<div class="row">
 								<div style="color:#ffffff;"class="col-lg-12 text-center">
 									<h1>
-										고농도악취제거시스템
+										고농도악취<br class="m_break">제거시스템
 									</h1>
 									<h5>
 										썬더볼트방전시스템과 활성이온수<br class="m_break"> 생성기술 및 마이크로버블 기술이<br class="pc_break"><br class="m_break">
@@ -158,8 +146,8 @@ ul li a h5 {
 											<b>1</b>
 										</td>
 										<td>
-											<b>실내 공기질 개선 및 강력한 살균작용</b>
-											<p>바이러스 감염 예방 및 스트레스성 장기 기능 저하 예방</p>
+											<b>실내 공기질 개선 및 강력한<br class="m_break"> 살균작용</b>
+											<p>바이러스 감염 예방 및 스트레스성 <br class="m_break">장기 기능 저하 예방</p>
 										</td>
 									</tr>
 									<tr>
@@ -167,10 +155,9 @@ ul li a h5 {
 											<b>2</b>
 										</td>
 										<td>
-											<b>강력한 항산화제(SOD)인 산화질소(NO) 발생</b>
-											<p>체내 활성산소 수치를 저하시키며, 혈관을 확장</p>
-											<small>신진대사를 촉진하며 면역체계 기능을 강화</small>
-											<small>성인병(질병)을 예방</small>
+											<b>강력한 항산화제(SOD)인<br class="m_break"> 산화질소(NO) 발생</b>
+											<p>체내 활성산소 수치를 저하시키며,<br class="m_break"> 혈관을 확장</p>
+											<small>신진대사를 촉진하며 면역체계 기능을 강화 <br class="m_break"> 성인병(질병)을 예방</small>
 										</td>
 									</tr>
 									<tr>
@@ -178,8 +165,8 @@ ul li a h5 {
 											<b>3</b>
 										</td>
 										<td>
-											<b>신진대사 촉진 및 면역체계 기능 강화</b>
-											<p>악취제거시스템의 기능에 의한 활성산소 수치 저하, 혈관 순화 촉진</p>
+											<b>신진대사 촉진 및 면역체계<br class="m_break"> 기능 강화</b>
+											<p>악취제거시스템의 기능에 의한 <br class="m_break">활성산소 수치 저하, 혈관 순화 촉진</p>
 										</td>
 									</tr>
 									<tr>

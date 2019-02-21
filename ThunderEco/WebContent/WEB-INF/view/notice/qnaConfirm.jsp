@@ -27,11 +27,19 @@
     border: 4px solid #ddd;
     background: #fff;
 }
+#counsel {
+	height:301px;
+	width:493px;
+}
 @media (max-width: 992px) {
 	form div[class="col-md-6 row"] {
 		height:auto;
 		padding:0px 67px;
 		margin:0px;
+	}
+	#counsel {
+		height:30%;
+		width:100%
 	}
 }
 </style>
@@ -52,15 +60,14 @@
 				</div>
 				<div class="col-lg-12">
 					<div class="wrap_confirm">
-						<div class="col-lg-6" style="text-align: center; background:#deecbf; float:left; padding:100px 0;">
-							<p style="font-size: 1.5em;">문의 내용 확인</p>
+						<div id=counsel style="background: url(/img/counselView.png) center center; background-size: cover !important;  float:left;">
 						</div>
-						<div class="col-lg-6 row" style="margin:auto;">
-							<form style="margin:16px 0;"id="confirm" action="/counselConfirmList.do">
-								<div class="col-md-6 row" style="height:auto;">
-									<input style="margin-top:15px;"type="text" name="userName" placeholder="작성자 이름" />
-									<input style="margin-top:15px;" type="text" name="mobile" placeholder="전화번호" />
-									<input style="margin-top:15px;" type="text" name="email" placeholder="이메일" />
+						<div style="text-align: center; padding: 33px 0;">
+							<form id="confirm" action="/counselConfirmList.do">
+								<div style="height:auto;">
+									<input style="margin-top:15px;"type="text" name="userName" placeholder="작성자 이름" /><br />
+									<input style="margin-top:15px;" type="text" name="mobile" placeholder="전화번호" /><br />
+									<input style="margin-top:15px;" type="text" name="email" placeholder="이메일" /><br />
 									<input class="cart-black-button" style="margin-top:15px; margin-right: 17px; min-width:100px;" type="button" id="conf" value="찾기"> 
 									<input class="cart-black-button" style="margin-top:15px; min-width:100px; background:rgba(0, 0, 0, 0.50);" type="button" onclick="javascript:back()" value="돌아가기"> 
 									<input type="hidden" name="pagenum" value="1" /> 

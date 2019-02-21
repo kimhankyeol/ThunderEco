@@ -32,12 +32,6 @@
 span{
 	padding-left:10%;
 }
-.pc_break {
-	display : inline-block !important;
-}
-.m_break {
-	display : none !important;
-	}
 ul li a:hover, ul li a:focus {
 	color: #fff; 
 	font-weight: bold; 
@@ -66,12 +60,6 @@ ul li a h5 {
 	}
 	.tab-content section {
 		padding: 50px 0 0 0;
-	}
-	.m_break {
-		display : inline-block !important;
-	}
-	.pc_break {
-		display : none !important;
 	}
 	.effect-table {
 		padding-left: 0%;
@@ -145,7 +133,7 @@ ul li a h5 {
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
 								<h5 style="text-align:center; display: block;">
-								TDO(Thunder nano bubble and Dissolved Oxygen Control system)란?	<br class="pc_break"><br class="m_break">
+								TDO(Thunder nano bubble and<br class="m_break"> Dissolved Oxygen Control system)란?	<br class="pc_break"><br class="m_break">
 									썬더볼트 방전의 마이크로 버블 기술과 <br class="m_break">산소 용해 기술이 융합되어 <br class="m_break">
 									<br class="pc_break">
 									새로운 형태의 환경 난제를 해결하는<br class="m_break"> 미래지향형 신기술							
@@ -209,8 +197,8 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>BOD  97.3% ~ 98.5% 감소</h2><br/>
-												-13,000 ~ 18,000mg/L의 오폐수 농도를 350mg/L 이하로 감소<br class="m_break"><br class="pc_break"><br/>
+												<h2>BOD  97.3% ~ 98.5%<br class="m_break"> 감소</h2><br/>
+												- 13,000 ~ 18,000mg/L의 오폐수 농도를 350mg/L 이하로 감소<br class="m_break"><br class="pc_break"><br/>
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -221,10 +209,10 @@ ul li a h5 {
 										</div>
 											<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>DO(용존산소) 농도 조절 및 살균</h2><br class="m_break"><br class="pc_break">
-												-산소용해기에 의한 용존산소 농도 조절<br class="m_break"><br class="pc_break">
-												-폐수에 포함된 악취물질 분해에 용이<br class="m_break"><br class="pc_break">
-												-OH-Radical에 의한 부패균 등 모든 균의 살균에 도움<br class="m_break"><br class="pc_break"><br/>
+												<h2>DO(용존산소) 농도 조절 <br class="m_break">및 살균</h2>
+												- 산소용해기에 의한 용존산소 농도 조절<br class="m_break"><br class="pc_break">
+												- 폐수에 포함된 악취물질 분해에 용이<br class="m_break"><br class="pc_break">
+												- OH-Radical에 의한 부패균 등 모든 균의 살균에 도움<br class="m_break"><br class="pc_break"><br/>
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -236,8 +224,8 @@ ul li a h5 {
 											<div class="col-lg-6 text-vertical">
 											<span>
 												<h2>악취 저감 및 색도 보정</h2><br class="m_break"><br class="pc_break">
-												-오폐수의 악취 물질을 분해, 악취 대폭 절감
-												-OH-Radical에 의한 색도 보정<br class="m_break"><br class="pc_break">
+												- 오폐수의 악취 물질을 분해, 악취 대폭 절감<br class="m_break"><br class="pc_break">
+												- OH-Radical에 의한 색도 보정<br class="m_break"><br class="pc_break">
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">

@@ -27,7 +27,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="main-hfs">에어파파</h1>
-                <p class="main-pfs ">고농도 산화질소를 함유한 플라스마를 생성하는 공기살균 및 탈취 시스템</p><a href="/airEco/airpapa.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">           </i></a>
+                <p class="main-pfs ">고농도 산화질소를 함유한 플라스마를 생성하는<br class="m_break"><br class="pc_break"> 공기살균 및 탈취 시스템</p><a href="/airEco/airpapa.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">           </i></a>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@
             <div class="row">
               <div class="col-lg-6 text-white">
                 <h1 class="main-hfs">친환경 돈사 시스템</h1>
-                <p class="main-pfs">산화질소를 포함한 플라스마 생성 기술을 통한 악취 제거 및 병원성 세균 멸균 친환경 동물 복지형 축사 시스템.</p><a href="/growthEco/animalSystem.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">  </i></a>
+                <p class="main-pfs">산화질소를 포함한 플라스마 생성 기술을 통한<br class="m_break"><br class="pc_break"> 악취 제거 및 병원성 세균 멸균 친환경<br class="m_break"> 동물 복지형<br class="pc_break"> 축사 시스템.</p><a href="/growthEco/animalSystem.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">  </i></a>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="row">
               <div class="col-lg-6 text-white">
                 <h1 class="main-hfs">친환경 수산 시스템</h1>
-                <p class="main-pfs ">수소 클러스터 작용을 통한 이온화 작용, 전자유기작용 및 활성기체를 생성하여 산화, 환원, 응집반응으로 수질정화, 살균하여 최상의 수질상태 유지 시스템</p><a href="/growthEco/marineSystem.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">           </i></a>
+                <p class="main-pfs ">수소 클러스터 작용을 통한 이온화 작용,<br class="m_break"> 전자유기작용<br class="pc_break"> 및 활성기체를 생성하여<br class="m_break"> 산화, 환원, 응집반응으로 수질정화,<br class="pc_break"> 살균하여<br class="m_break"> 최상의 수질상태 유지 시스템</p><a href="/growthEco/marineSystem.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">           </i></a>
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ if(userName.equals("관리자")){
 <!-- 본문 -->
 <div class="subTitleBar">
 	<div class="subTitleIn">
-			<h2 style="color: #2a64b1">공지사항 수정</h2>
+			<h2 style="color: #3f7f00">공지사항 수정</h2>
 			<ul class="smap">
                  <li><a style="color:black;" href="/main.do"><i class="fa fa-home fa-fw"></i></a></li>
                  <li><i class="fa fa-chevron-right fa-fw"></i></li>
@@ -58,17 +58,18 @@ if(userName.equals("관리자")){
  <div class="container" style="min-height: 80%;">
  <div class="width-100" style="border-top: 2px solid #333;">
 	 <form id="noticeUpdate" action="/noticeUpdate.do">
-	  <div class="form-group" style="margin-top: 10px; color: #2a64b1"><h3>제목</h3></div>
+	  <div class="form-group" style="margin-top: 10px; color: #3f7f00"><h3>제목</h3></div>
 	  <input type="text" class="form-control" style="margin-bottom: 20px;" name="title" value="<%=nDTO.getNoticeTitle()%>"/>
-	   <div class="form-group" style="color: #2a64b1"><h3>내용</h3></div>
+	   <div class="form-group" style="color: #3f7f00"><h3>내용</h3></div>
 		  <textarea name="content" id="content" rows="10" cols="80">
 		     <%=nDTO.getNoticeContent() %>
 		  </textarea>
 		   <input type="hidden" name="noticeNo" value="<%=nDTO.getNoticeNo()%>"/>
 	</form>
-	  <input type="button" id="ntUpd" class="btn btn-success" value="수정"/>
-	  <input type="button" onclick="javascript:back()" class="btn btn-danger" value="돌아가기"/>
-	  
+	<div style="text-align:center; padding:15px;">
+		<input type="button" id="ntUpd" class="cart-black-button" value="수정"/>
+		<input type="button" onclick="javascript:back()" class="cart-black-button" style="background: rgba(0, 0, 0, 0.50)" value="돌아가기"/>
+	</div>
   </div> 
    </div>
 <%@ include file="/WEB-INF/view/footer.jsp" %>

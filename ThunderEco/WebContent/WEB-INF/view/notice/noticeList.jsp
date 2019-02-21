@@ -1,3 +1,4 @@
+<%@page import="poly.util.DateUtil"%>
 <%@page import="poly.util.CmmUtil"%>
 <%@page import="poly.dto.NoticeDTO"%>
 <%@page import="poly.dto.PagingDTO"%>
@@ -85,7 +86,7 @@ function page1(i){
 				<div><b><%=nList.get(i).getNoticeNo()%></b></div>
 				<div onclick="javascript:noticeDetail('<%=nList.get(i).getNoticeNo()%>')"><b><%=nList.get(i).getNoticeTitle()%></b></div>
 				<div>관리자</div>
-				<div><%=nList.get(i).getRegDate()%></div>
+				<div><%=DateUtil.DateFormatter(nList.get(i).getRegDate().toString())%></div>
 				<div><%=nList.get(i).getReadCount()%>회</div>
 			</div>
 		<%} %>

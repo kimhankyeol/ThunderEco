@@ -33,17 +33,19 @@
 	<section>
 		<div class="container">
 			<div class="row">
+			<hr style="width: 100%"/>
 				<div class="col-lg-12">
 					<h3>
 						Thunder Eco는?
 					</h3>
 				</div>
 				<div class="col-lg-12">
-					<p>제 4 에너지 물질 발생 장치인 "썬더폴트 방전 시스템"을 이용하여 우리의 삶에 가장 소중한 공기와 물을</p>
-					<p>최상의 상태로 변환하여 온 인류의 건강과 행복에 꼭 필요한 제품을 제조하는 대기환경 및 수질환경 개선 전문회사입니다.</p>
+					<p>제 4 에너지 물질 발생 장치인 "썬더폴트 방전 <br class="m_break">시스템"을 이용하여 우리의 삶에<br class="m_break"> 가장 소중한 공기와 물을</p>
+					<p>최상의 상태로 변환하여 온 인류의 건강과 행복에<br class="m_break"> 꼭 필요한 제품을 제조하는 대기환경 및 수질환경<br class="m_break"> 개선 전문회사입니다.</p>
 				</div>
+				<hr style="width: 100%"/>
 				<div class="col-lg-12 text-center">
-					<h2 style="padding-bottom: 10%; padding-top:20px; color: green;">
+					<h2 style="padding-bottom: 5%; padding-top:20px; color: green;">
 						플라즈마 & 산화질소
 					</h2>
 					<div class="row text-left">
@@ -53,7 +55,7 @@
 								<li><strong>고농도 산화질소(NO) 생성</strong></li>
 								<li><strong>다량의 산소이온(음이온) 생성</strong></li>
 								<li><strong>OH- Radical 생성</strong></li>
-								<li><strong>이산화탄소(CO2) 저감으로 지구 온난화 현상 예방</strong></li>
+								<li><strong>이산화탄소(CO2) 저감으로<br class="m_break"> 지구 온난화 현상 예방</strong></li>
 							</ul>
 						</span>
 						<span class="col-md-6">
@@ -65,34 +67,36 @@
 							</ul>
 						</span>
 					</div>
-					<h2 style="padding-bottom: 10%; padding-top:40px; color: green;">
+					<hr style="width: 100%"/>
+					<h2 style="padding-bottom: 5%; padding-top:40px; color: green;">
 						사업 영역
 					</h2>
-					<div style="padding-bottom: 10%;" class="row text-center">
+					<div style="padding-bottom: 5%;" class="row text-center">
 						<span class="col-md-6">
-							<strong style="display: block; padding-bottom: 10%;"><h3>공기살균탈취시스템</h3></strong>
+							<strong style="display: block; padding: 5% 0;"><h3>공기살균탈취시스템</h3></strong>
 							<img src="/img/intro_1.png">
 							<!-- <img> -->
 						</span>
 						<span class="col-md-6">
-							<strong style="display: block; padding-bottom: 10%;"><h3>친환경 안전 농수축산</h3></strong>
+							<strong style="display: block; padding: 5% 0;"><h3>친환경 안전 농수축산</h3></strong>
 							<img src="/img/intro_2.png">
 							<!-- <img> -->
 						</span>
 					</div>
-					<div style="padding-bottom: 10%;" class="row text-center">
+					<div style="padding-bottom: 5%;" class="row text-center">
 						<span class="col-md-6">
-							<strong style="display: block; padding-bottom: 10%; "><h3>대기 및 수질 환경</h3></strong>
+							<strong style="display: block; padding: 5% 0; "><h3>대기 및 수질 환경</h3></strong>
 							<img src="/img/intro_3.png">
 							<!-- <img> -->
 						</span>
 						<span class="col-md-6">
-							<strong style="display: block;padding-bottom: 10%; "><h3>주방환경 개선</h3></strong>
+							<strong style="display: block; padding: 5% 0; "><h3>주방환경 개선</h3></strong>
 							<img src="/img/intro_4.png">
 							<!-- <img> -->
 						</span>
 					</div>
 				</div>
+				<hr style="width: 100%"/>
 			</div>
 		</div>
 	</section>
