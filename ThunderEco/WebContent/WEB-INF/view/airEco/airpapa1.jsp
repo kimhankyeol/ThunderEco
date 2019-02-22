@@ -12,58 +12,67 @@
 .effect-table {
 	display: block;
 	margin: auto;
-	width:85%;
-	max-width:85%;
-	background-color:transparent;
+	width: 85%;
+	max-width: 85%;
+	background-color: transparent;
 	padding-left: 10%;
-    padding-right: 10%
+	padding-right: 10%
 }
+
 .effect-table td, .effect-table th {
-	padding:.75rem;
-	vertical-align:middle;
-} 
+	padding: .75rem;
+	vertical-align: middle;
+}
+
 .effect-table td p {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
+
 .text-vertical {
-	display:block;
-	margin:auto;
+	display: block;
+	margin: auto;
 }
-span{
-	padding-left:10%;
+
+span {
+	padding-left: 10%;
 }
+
 ul li a:hover, ul li a:focus {
-	color: #fff; 
-	font-weight: bold; 
-	background-color:#deecbf; 
-	text-decoration:none;
+	color: #fff;
+	font-weight: bold;
+	background-color: #deecbf;
+	text-decoration: none;
 }
+
 ul li a h5 {
-	margin:0;
+	margin: 0;
 	padding: 10px 0;
 }
+
 .item-img {
 	width: 600px;
 	text-align: center;
 	vertical-align: middle;
 	display: inline-block;
 }
+
 .item-price {
 	width: 440px;
 	vertical-align: middle;
 	display: inline-block;
 }
-@media (max-width: 992px) {
-	span{
-		padding-left:0px;
-		padding-bottom:10%;
+
+@media ( max-width : 992px) {
+	span {
+		padding-left: 0px;
+		padding-bottom: 10%;
 	}
 	.tab-content section {
 		padding: 50px 0 0 0;
 	}
 	.effect-table {
 		padding-left: 0%;
-   	 padding-right: 0%;
+		padding-right: 0%;
 	}
 	.item-img {
 		width: 100%;
@@ -354,6 +363,7 @@ ul li a h5 {
 			</div>
 		</div>
 	</section>
+	<a id="topBtn" href="#">TOP</a>
 	<%@ include file="../footer.jsp" %>
 	<%@ include file="../bottomJs.jsp" %>
 </body>

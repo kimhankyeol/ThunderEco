@@ -10,12 +10,12 @@
     <meta name="robots" content="all,follow">
     <%@ include file="topCssJs.jsp" %>
  	
- 	<style type="text/css">
-		.main-height {
-			height: 100%
-		}
-	</style>
-  </head>
+<style type="text/css">
+.main-height {
+	height: 100%
+}
+</style>
+</head>
   <body>
     <%@ include file="top.jsp" %>
     <!-- Hero Section-->
@@ -55,7 +55,6 @@
         </div>
       </div>
     </section>
-    
 	<%@ include file="footer.jsp" %>
     <%@ include file="bottomJs.jsp" %>
   </body>

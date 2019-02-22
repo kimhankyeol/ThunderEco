@@ -12,3 +12,22 @@
     <script src="/js/jquery.countdown.min.js"></script>
     <!-- Main Template File-->
     <script src="/js/front.js"></script>
+    <!-- topBtn JS -->
+    <script>
+	$(function() {
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 25) {
+				$('#topBtn').fadeIn();
+			} else {
+				$('#topBtn').fadeOut();
+			}
+		});
+
+		$("#topBtn").click(function() {
+			$('html, body').animate({
+				scrollTop : 0
+			}, 400);
+			return false;
+		});
+	});
+	</script>
