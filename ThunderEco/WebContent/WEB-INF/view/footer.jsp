@@ -10,9 +10,9 @@
               <div class="logo"><a href="/"><img src="/img/logo.png" alt="ThunderEco"></a></div>
               <p></p>
               <ul class="list-unstyled">
-                <li> 주소: 서울특별시 강남구 선릉로115길 3, 2층(논현동)</li>
-                <li> 대표이사 : 이명섭</li>
-                <li> 사업자등록번호 --------</li>
+                <li> 주소 : 서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭아파트형공장)</li>
+                <li> 대표 : 김현재</li>
+                <li> 사업자등록번호 : 645-86-01029</li>
               </ul>
             </div>
             <div class="newsletter col-lg-6">
