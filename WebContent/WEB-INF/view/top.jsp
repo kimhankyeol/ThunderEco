@@ -47,7 +47,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarAirLink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							Air Eco<i class="fa fa-angle-down"></i>
+							Home Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownAirLink" class="dropdown-menu">
 							<li>
@@ -60,7 +60,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarGrowthLink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							Growth Eco<i class="fa fa-angle-down"></i>
+							Farm Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownGrowthLink" class="dropdown-menu">
 							<li>
@@ -76,7 +76,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarAWELink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							AIR WATER Eco<i class="fa fa-angle-down"></i>
+							Air/Water Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownAWELink" class="dropdown-menu">
 							<li>

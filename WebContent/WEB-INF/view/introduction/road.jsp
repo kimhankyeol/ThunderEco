@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -29,9 +28,9 @@
             </div>
             <div class="newsletter col-lg-8" >
               <ul class="list-unstyled">
-                <li><p><b>주소 : </b> 서울특별시 강남구 선릉로115길 3, 2층(논현동)</p></li>
-                <li style="padding-left: 6%"><p>(서울특별시 강남구 논현동 268-2, 2층)</p></li>
-                <li><p><b>전화 : </b> 1588-1588</p></li>
+                <li><strong>도로명 주소 : </strong><p>서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭아파트형공장)<p></li>
+                <li><strong>지번 주소 : </strong><p>서울특별시 강남구 논현동 268-2, 2층</p></li>
+                <li><strong>전화 : </strong><p>1588-1588</p></li>
               </ul>
             </div>
           </div>
