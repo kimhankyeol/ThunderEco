@@ -41,7 +41,6 @@ span{
 ul li a:hover, ul li a:focus {
 	color: #fff; 
 	font-weight: bold; 
-	background-color:#deecbf; 
 	text-decoration:none;
 }
 ul li a h5 {

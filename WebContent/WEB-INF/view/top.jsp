@@ -47,25 +47,25 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarAirLink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							Air Eco<i class="fa fa-angle-down"></i>
+							Home Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownAirLink" class="dropdown-menu">
 							<li>
 								<a href="/airEco/airpapa.do" class="dropdown-item">에어파파</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="/ready.do" class="dropdown-item">멸균기</a>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarGrowthLink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							Growth Eco<i class="fa fa-angle-down"></i>
+							Farm Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownGrowthLink" class="dropdown-menu">
-							<li>
+							<!-- <li>
 								<a href="/ready.do" class="dropdown-item">농산 시스템</a>
-							</li>
+							</li> -->
 							<li>
 								<a href="/growthEco/marineSystem.do" class="dropdown-item">수산 시스템</a>
 							</li>
@@ -76,7 +76,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarAWELink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-							AIR WATER Eco<i class="fa fa-angle-down"></i>
+							Air/Water Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownAWELink" class="dropdown-menu">
 							<li>
@@ -92,16 +92,24 @@
 							Living Eco<i class="fa fa-angle-down"></i>
 						</a>
 						<ul aria-labelledby="navbarDropdownLivingLink" class="dropdown-menu">
-							<li>
+							<!-- <li>
 								<a href="/ready.do" class="dropdown-item">식재료 세척</a>
-							</li>
+							</li> -->
 							<li>
 								<a href="/livingEco/disinfectWash.do" class="dropdown-item">소독고 살균탈취</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="/ready.do" class="dropdown-item">도구 살균탈취</a>
-							</li>
+							</li> -->
 						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a id="navbarInfoLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
+							Patents
+						</a>
+						<!-- <ul aria-labelledby="navbarDropdownInfoLink" class="dropdown-menu">
+						
+						</ul> -->
 					</li>
 					<li class="nav-item dropdown">
 						<a id="navbarInfoLink" href="index.jsp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
@@ -114,15 +122,6 @@
 							</li>
 							<li>
 								<a href="/adminQnaList.do?pagenum=1&contentnum=10&classfication=all" class="dropdown-item">관리자 1:1 문의</a>
-							</li>
-							<li>
-								<a href="/noticeList.do?pagenum=1&contentnum=10" class="dropdown-item">공지사항</a>
-							</li>
-							<li>
-								<a href="/notice/counsel.do" class="dropdown-item">1:1 문의</a>
-							</li>
-							<li>
-								<a href="/notice/counselView.do" class="dropdown-item">1:1 문의 내용 확인</a>
 							</li>
 							<li>
 								<a href="/logout.do"class="dropdown-item">로그아웃</a>

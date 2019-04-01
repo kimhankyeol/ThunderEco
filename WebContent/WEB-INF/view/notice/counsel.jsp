@@ -49,10 +49,16 @@
 <div class="container" style="min-height: 80%;">
 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
 		<form id="counsel" action="/notice/counselProc.do" method="POST">
-			<div class="form-group counselCol1">제목</div>
-			<input type="text" class="form-control counselColback" name="title" placeholder="제목을 입력하세요" value="" />
 			<div class="form-group counselCol2">작성자</div>
 			<input type="text" class="form-control counselColback" name="userName" placeholder="작성자 성함을 입력해주세요" value="" />
+			<div class="form-group">
+				<span class="form-group counselCol2">번호</span>
+				<span class="counselColback"><input type="tel" class="form-control" name="mobile"  placeholder="연락처를 입력해주세요." value="" /></span>
+				<span class="form-group counselCol2">이메일</span>
+				<span class="counselColback"><input type="email" class="form-control" name="email" placeholder="답변을 받을 이메일을 입력해주세요." value="" /></span>
+			</div>
+			<div class="form-group counselCol1">제목</div>
+			<input type="text" class="form-control counselColback" name="title" placeholder="제목을 입력하세요" value="" />
 			<div class="form-group">
 				<span class="counselCol1">분류</span>
 				<select class="form-control" name="classfication" style="width:80%;float:left;margin-bottom:20px">
@@ -64,14 +70,7 @@
 			</div>
 			<div class="form-group counselCol1">내용</div>
 			<div class="counselColback">
-				<textarea class="counselColback" name="content" id="content" rows="10" cols="80">
-				</textarea>
-			</div>
-			<div class="form-group">
-				<span class="form-group counselCol2">번호</span>
-				<span class="counselColback"><input type="tel" class="form-control" name="mobile"  placeholder="연락처를 입력해주세요." value="" /></span>
-				<span class="form-group counselCol2">이메일</span>
-				<span class="counselColback"><input type="email" class="form-control" name="email" placeholder="답변을 받을 이메일을 입력해주세요." value="" /></span>
+				<textarea class="counselColback" name="content" id="content" rows="10" cols="80"></textarea>
 			</div>
 			<div style="text-align:center; padding:15px;">
 				<input type="button" id="ntIns" class="cart-black-button"  value="등록">

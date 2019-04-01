@@ -25,7 +25,7 @@
         <div style="background: url(/img/mainTest4.jpg); background-position: center; height:1000px;" class="item d-flex align-items-center main-height">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 text-white">
                 <h1 class="main-hfs">에어파파</h1>
                 <p class="main-pfs ">고농도 산화질소를 함유한 플라스마를 생성하는<br class="m_break"><br class="pc_break"> 공기살균 및 탈취 시스템</p><a href="/airEco/airpapa.do" class="btn btn-template wide shop-now">자세히 보기<i class="icon-bag">           </i></a>
               </div>
