@@ -102,7 +102,7 @@ ul li a h5 {
 				<div style="max-width:100%;">
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
-					<p>100,000원</p>
+					<!-- <p>100,000원</p> -->
 					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
 				</div>
 			</div>
