@@ -9,9 +9,9 @@
         lazy-init="false">
  
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://116.124.128.185:3306/thundereco?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=Asia/Seoul" />
+        <property name="url" value="jdbc:mysql://localhost:3306/thundereco?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=Asia/Seoul" />
         <property name="username" value="thundereco" />
-        <property name="password" value="" />
+        <property name="password" value="1234" />
     </bean>
     
 </beans>

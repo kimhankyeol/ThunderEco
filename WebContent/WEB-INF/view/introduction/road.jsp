@@ -29,7 +29,7 @@
             <div class="newsletter col-lg-8" >
               <ul class="list-unstyled">
                 <li><strong>도로명 주소 : </strong><p>서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭테크노타운1차)<p></li>
-                <li><strong>지번 주소 : </strong><p>서울특별시 금천구 가산동 327-24 대륭테크노타운1차, 6층 601-1호</p></li>
+                <li><strong>지번 주소 : </strong><p>서울특별시 금천구 가산동 327-24 <br class="m_break">대륭테크노타운1차, 6층 601-1호</p></li>
                 <li><strong>전화 : </strong><p>1588-1588</p></li>
               </ul>
             </div>

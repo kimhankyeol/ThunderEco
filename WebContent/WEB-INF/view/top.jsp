@@ -124,15 +124,6 @@
 								<a href="/adminQnaList.do?pagenum=1&contentnum=10&classfication=all" class="dropdown-item">관리자 1:1 문의</a>
 							</li>
 							<li>
-								<a href="/noticeList.do?pagenum=1&contentnum=10" class="dropdown-item">공지사항</a>
-							</li>
-							<li>
-								<a href="/notice/counsel.do" class="dropdown-item">1:1 문의</a>
-							</li>
-							<li>
-								<a href="/notice/counselView.do" class="dropdown-item">1:1 문의 내용 확인</a>
-							</li>
-							<li>
 								<a href="/logout.do"class="dropdown-item">로그아웃</a>
 							</li>
 						<%}else{ %>
