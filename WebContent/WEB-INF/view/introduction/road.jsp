@@ -28,9 +28,9 @@
             </div>
             <div class="newsletter col-lg-8" >
               <ul class="list-unstyled">
-                <li><strong>도로명 주소 : </strong><p>서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭테크노타운1차)<p></li>
-                <li><strong>지번 주소 : </strong><p>서울특별시 금천구 가산동 327-24 <br class="m_break">대륭테크노타운1차, 6층 601-1호</p></li>
-                <li><strong>전화 : </strong><p>1588-1588</p></li>
+                <li><strong>주소 : </strong><p>서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭아파트형공장)<p></li>
+                <!-- <li><strong>지번 주소 : </strong><p>서울특별시 금천구 가산동 327-24 <br class="m_break">대륭테크노타운1차, 6층 601-1호</p></li> -->
+                <li><strong>전화 : </strong><p>02-6959-2813, 2814</p></li>
               </ul>
             </div>
           </div>
@@ -42,8 +42,8 @@
           	<div class="row" style="margin:30px auto">
 	        	<ul class="list-unstyled">
 	        		<li><h4>지하철</h4></li>
-	                <li><p><b>1호선</b> 독산역 2번 출구 구로세관 방향 800m(도보 10분)</p></li>
-	                <li><p><b>1호선, 7호선</b> 가산디지털단지역 5번 출구 구로세관 방향 1km(도보 20분)</p></li>
+	                <li><p><b>1호선 :</b> 독산역 2번 출구, 도보 약 8분, 마을버스 5번, 27번 대륭테크노타운 12차 정문 하차</p></li>
+	                <li><p><b>7호선 :</b> 가산디지털단지역 5번 출구, 도보 약 12분</p></li>
             	</ul>
         	</div>
         </div>

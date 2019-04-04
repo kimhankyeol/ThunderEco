@@ -101,7 +101,7 @@ ul li a h5 {
 				<div style="max-width:100%;">
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
-					<p>100,000원</p>
+					<!-- <p>100,000원</p> -->
 					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
 				</div>
 			</div>
@@ -129,13 +129,13 @@ ul li a h5 {
 									<div class="row">
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
 											<h5>
-												 플라스마 생성 기술을 통한<br class="m_break"> 악취제거 및<br class="pc_break"> 병원성 세균 멸균 <br class="m_break">친환경 동물 복지형 축사 시스템
+												 발육에서부터 환경개선으로
 											</h5>
 											<h1>
-												친환경 돈사 <br class="m_break">시스템
+												친환경 양돈 <br class="m_break">시스템
 											</h1>
 											<h5>
-												악취저감, 병원성 바이러스 멸균,<br class="m_break"> 질병예방 가스누출 해결
+												악취 개선, 각종 질병예방,<br class="m_break"> 면역력 증진
 											</h5>
 										</div>
 									</div>
@@ -144,9 +144,9 @@ ul li a h5 {
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
 								<h5 style="text-align:center; display: block;">
-									병원성 세균, 바이러스에 의한 질병 예방,<br class="m_break"> 암모니아 가스누출에 의한 병원해결,<br class="m_break"> 소비자에게
+									강력한 살균력으로 병원성 세균, <br class="m_break">바이러스에 의한 질병 예방, <br class="m_break">면역력 증강 및 체질개선에 의한 폐사율의 최소화,<br class="m_break">
 									<br class="pc_break">
-									안전한 먹거리를 <br class="m_break">공급하는 시스템 구축을 위한 <br class="m_break">돈사시설의 병원성 세균 멸균 탈취용<br class="m_break"> 환기 시스템 구축
+									암모니아 가스 누출 등 악취 발생에 <br class="m_break">의한 민원 해결 등 친환경 양돈시스템입니다.
 								</h5>
 								<div class="row" style="padding-top:20px;">
 									<table class="effect-table">
@@ -156,7 +156,7 @@ ul li a h5 {
 													<b>1</b>
 												</td>
 												<td>
-													<b>산화질소 플라스마 공기정화 멸균</b>
+													<b>산화질소 플라즈마 공기정화, 멸균, 악취제거</b>
 													<p>일일 24시간 이온화된 공기정화<br class="m_break">(OH-Radical, [O]) 순환</p>
 												</td>
 											</tr>
@@ -165,7 +165,7 @@ ul li a h5 {
 													<b>2</b>
 												</td>
 												<td>
-													<b>안개 분사 멸균</b>
+													<b>안개 분사 멸균, 악취제거</b>
 													<p>산화질소를 함유한 활성 이온수를 <br class="m_break">주기적 분사 (OH-Radical, [H3O2])</p>
 												</td>
 											</tr>
@@ -175,7 +175,9 @@ ul li a h5 {
 												</td>
 												<td>
 													<b>산화질소 함유수 음용</b>
-													<p>가축의 음용수를 산화질소수로 대체</p>
+													<p>
+														가축의 음용수를 산화질소수로 대체<br class="m_break"> [해독(Detox), 체질개선으로 면력력 증진, 사료의 섭취 증가로 성장 발육 촉진]
+													</p>
 												</td>
 											</tr>
 										</tbody>
@@ -191,7 +193,7 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-12" style="text-align:center;">
 											<h2 style="padding:20px;">주요 적용 · 설치 장소</h2>
-											<h3 style="padding:20px;">돈사·우사·축사<h3>
+											<h3 style="padding:20px;">돈사·양계장·오리농장<h3>
 										</div>
 										<div class="col-lg-12">
 											<hr>
@@ -212,7 +214,9 @@ ul li a h5 {
 										<div class="col-lg-6 text-vertical">
 											<span>
 												<h2>성장호르몬 분비 자극</h2><br/>
-												가축의 구성성분 개선
+												산화질소에 의한 구성성분 개선으로 성장호르몬
+												<br class="pc_break">
+												분비를 자극, 성장을 촉진
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -225,7 +229,7 @@ ul li a h5 {
 										<div class="col-lg-6 text-vertical">
 											<span>
 												<h2>가축의 분비물 냄새 제거</h2><br/>
-												환경오염의 주범이 되는 가축의 소변과<br class="m_break"> 대변의 냄새 제거 
+												환경오염의 주범이 되는 가축의 대소변<br class="m_break"> 냄새 제거 
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -245,7 +249,7 @@ ul li a h5 {
 												<span class="col-lg-6" style="align-self: center; padding-bottom:initial;"> 
 												<b style="font-size: 200%;">우</b>리의 인체에 어떠한 일을 하나요?<br class="m_break"> 
 												<br class="pc_break"> 
-												혈관의 긴장, 응고, 염증, 산화등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
+												혈관의 긴장, 응고, 염증, 산화 등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
 												<br class="pc_break">
 												혈관의 건강을 지키는 <b>핵심물질</b>입니다.</span>
 											</div>
@@ -253,29 +257,29 @@ ul li a h5 {
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">대</b>부분 사람들은 심혈관계 기능을 부드럽게 <br class="m_break"> 유지하기 위해 충분한 산화질소를 <br class="m_break">생성하지 못하고 있습니다.<br class="m_break">
 											<br class="pc_break">
-											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
+											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전 등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
 											<br class="pc_break">
-											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야합니다.</span>
+											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야 합니다.</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide.png" style="height: auto; width: 100%; " /></div>
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">산</b><b>화질소</b>는 낮 동안 활동할 때 활발히 생성이 되지만 <br class="m_break"> 밤에는 활발히 생성하지 못합니다 <br class="m_break">
 											<br class="pc_break">
-											운동할 때 가장 활발히 생성이되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜줍니다. <br class="m_break">
+											운동할 때 가장 활발히 생성이 되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜 줍니다. <br class="m_break">
 											<br class="pc_break">
-											혈액순환을 원활히 하여 산소를 더 빨리 공급해줌으로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
+											혈액순환을 원활히 하여 산소를 더 빨리 공급해 주므로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
 											<br class="pc_break">
 											나이가 들수록 산화질소는 적게 생성이 됩니다. <br class="m_break">
 											<br class="pc_break">
-											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50%가량 떨어집니다.</b> <br class="m_break">
+											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50% 가량 떨어집니다.</b> <br class="m_break">
 											<br class="pc_break">
 											산화질소가 부족하면 혈관이 손상을 입고 이로	<br class="m_break"> 인해 발생하는 <b>심혈관 질환은</b> <br class="m_break">
 											<br class="pc_break">
-											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은<br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
+											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은 <br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
 											</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide2.png" style="height: auto; width: 100%;" /></div>
-										<div style="display: initial;"><img src="/img/Plasma.jpg" style="height: auto; width: 100%;" /></div>
+										<div style="display: initial;"><img src="/img/Plasma.png" style="height: auto; width: 100%;" /></div>
 										<div class="col-lg-12">
 											<hr>
 										</div>

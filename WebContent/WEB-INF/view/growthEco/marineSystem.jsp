@@ -89,7 +89,7 @@ ul li a h5 {
 				<div style="max-width:100%;">
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
-					<p>100,000원</p>
+					<!-- <p>100,000원</p> -->
 					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
 				</div>
 			</div>
@@ -117,15 +117,13 @@ ul li a h5 {
 									<div class="row">
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
 											<h5>
-												수소 클러스터 작용을 통한 이론화 작용, <br class="m_break">전자유기작용 및 활성기체를 생성하여 <br class="m_break">
-												<br class="pc_break">
-												산화, 환원, 응집반응으로 수질정화, <br class="m_break">살균하여 최상의 수질상태 유지 시스템
+												무 항생제 천연 정화 장치
 											</h5>
 											<h1>
 												친환경 수산<br class="m_break"> 시스템
 											</h1>
 											<h5>
-												수질정화, 살균, 수중 고농도산소 함유,<br class="m_break"> 오염물질분해제거
+												수질정화, 바이러스·세균 살균, 고동도 용존산소 함유,<br class="m_break"> 오염물질 분해 제거
 											</h5>
 										</div>
 									</div>
@@ -134,9 +132,11 @@ ul li a h5 {
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
 								<h5 style="text-align:center; display: block;">
-									썬더볼트 융합코어시스템은 수산이온을<br class="m_break"> 물 속에 다량 용해시키고, <br class="m_break">
+									친환경 수산시스템에서 생성되는<br class="m_break"> OH- Radical 등의 활성종에 함유된 공기를<br class="m_break">
 									<br class="pc_break">
-									수중의 용존산소를 크게 향상시켜서<br class="m_break"> 고농도 용존산소를 함유하게 됩니다.								
+									오염된 수중에 미세기포로 공급하여,<br class="m_break"> 수소 클러스터작용으로
+									<br class="pc_break">
+									물분자를 초미립자화하며, 수소 양이온 및 수산이온으로<br class="m_break"> 수중 오염물질을 정화하는 신기술입니다. 
 								</h5>
 								<div class="row" style="padding-top:20px;">
 									<table class="effect-table">
@@ -148,8 +148,7 @@ ul li a h5 {
 												<td>
 													<b>세균, 유해바이러스의 살균</b>
 													<p>
-														수산 시스템과 수소 클러스터<br class="m_break"> 반응에 의해 생성되는 OH-Radical 등의<br class="pc_break">
-														활성종이 수중의 세균, <br class="m_break">바이러스를 매우 효율적으로 살균
+														수산이온(OH-)은 수중의 다양한<br class="m_break"> 세균 및 유해 바이러스를 강력하게 살균합니다.
 													</p>
 												</td>
 											</tr>
@@ -158,10 +157,9 @@ ul li a h5 {
 													<b>2</b>
 												</td>
 												<td>
-													<b>수중의 고농도산소 함유</b>
+													<b>수중의 고농도 용존산소 함유</b>
 													<p>
-														수산이온을 물 속에 용해시키고,<br class="m_break"><br class="pc_break">
-														수중의 용존산소를 크게 향상시켜서 <br class="m_break"> 고농도 용존산소를 함유
+														산화질소를 포함하는 산소이온을 다량 용해시켜서<br class="m_break"> 수중의 용존산소의 양을 크게 향상시팁니다.
 													</p>
 												</td>
 											</tr>
@@ -170,11 +168,10 @@ ul li a h5 {
 													<b>3</b>
 												</td>
 												<td>
-													<b>오염물질분해 제거, 최상의<br class="m_break"> 수질상태 유지</b>
+													<b>오염물질분해 제거, 최상의 수질상태 유지</b>
 													<p>
-														전기전자에너지를 유입되는<br class="m_break"> 신선한 외기에 인가하여<br class="m_break"> OH-Radical 등의 활성기체를<br class="m_break"> 생성하고
-														<br class="pc_break">
-														미세기포로 활성종에<br class="m_break"> 함유된 공기를 공합하여<br class="m_break"> 수중 오염물질을 정화하는 신기술
+														산소원자 및 산소이온이 수중의 배설물 · 오염물질을<br class="m_break"> 분해 및 제거하여 수질을 정화하고,<br class="m_break"><br class="pc_break"> 
+														물분자를 활성시켜서 최상의 수질상태를 유지합니다.
 													</p>
 												</td>
 											</tr>
@@ -199,8 +196,8 @@ ul li a h5 {
 										<div class="col-lg-6 text-vertical">
 											<span>
 												<h4>활어의 활동성 증가와<br class="m_break"> 면역력 증진</h4><br/>
-												산화질소의 지속적인 공급으로 살균 및<br class="m_break"> 항산화작용으로<br class="pc_break">
-												스트레스 해소, 활어의<br class="m_break"> 활동성 증가와 면역력 증진으로 체질개선
+												산화질소의 지속적인 공급으로 살균 및<br class="m_break"> 항산화작용을 하며,<br class="pc_break">
+												활어의 스트레스 해소,<br class="m_break"> 활동성 증가와 면역력 증진으로 체질개선
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -262,7 +259,7 @@ ul li a h5 {
 												<span class="col-lg-6" style="align-self: center; padding-bottom:initial;"> 
 												<b style="font-size: 200%;">우</b>리의 인체에 어떠한 일을 하나요?<br class="m_break"> 
 												<br class="pc_break"> 
-												혈관의 긴장, 응고, 염증, 산화등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
+												혈관의 긴장, 응고, 염증, 산화 등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
 												<br class="pc_break">
 												혈관의 건강을 지키는 <b>핵심물질</b>입니다.</span>
 											</div>
@@ -270,29 +267,29 @@ ul li a h5 {
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">대</b>부분 사람들은 심혈관계 기능을 부드럽게 <br class="m_break"> 유지하기 위해 충분한 산화질소를 <br class="m_break">생성하지 못하고 있습니다.<br class="m_break">
 											<br class="pc_break">
-											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
+											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전 등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
 											<br class="pc_break">
-											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야합니다.</span>
+											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야 합니다.</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide.png" style="height: auto; width: 100%; " /></div>
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">산</b><b>화질소</b>는 낮 동안 활동할 때 활발히 생성이 되지만 <br class="m_break"> 밤에는 활발히 생성하지 못합니다 <br class="m_break">
 											<br class="pc_break">
-											운동할 때 가장 활발히 생성이되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜줍니다. <br class="m_break">
+											운동할 때 가장 활발히 생성이 되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜 줍니다. <br class="m_break">
 											<br class="pc_break">
-											혈액순환을 원활히 하여 산소를 더 빨리 공급해줌으로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
+											혈액순환을 원활히 하여 산소를 더 빨리 공급해 주므로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
 											<br class="pc_break">
 											나이가 들수록 산화질소는 적게 생성이 됩니다. <br class="m_break">
 											<br class="pc_break">
-											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50%가량 떨어집니다.</b> <br class="m_break">
+											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50% 가량 떨어집니다.</b> <br class="m_break">
 											<br class="pc_break">
 											산화질소가 부족하면 혈관이 손상을 입고 이로	<br class="m_break"> 인해 발생하는 <b>심혈관 질환은</b> <br class="m_break">
 											<br class="pc_break">
-											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은<br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
+											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은 <br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
 											</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide2.png" style="height: auto; width: 100%;" /></div>
-										<div style="display: initial;"><img src="/img/Plasma.jpg" style="height: auto; width: 100%;" /></div>
+										<div style="display: initial;"><img src="/img/Plasma.png" style="height: auto; width: 100%;" /></div>
 										<div class="col-lg-12">
 											<hr>
 										</div>

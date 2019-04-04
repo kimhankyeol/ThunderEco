@@ -40,7 +40,7 @@
 					</h3>
 				</div>
 				<div class="col-lg-12">
-					<p>제 4 에너지 물질 발생 장치인 "썬더폴트 방전 <br class="m_break">시스템"을 이용하여 우리의 삶에<br class="m_break"> 가장 소중한 공기와 물을</p>
+					<p>제 4 에너지 물질 발생 장치인 "썬더볼트 방전 <br class="m_break">시스템"을 이용하여 우리의 삶에<br class="m_break"> 가장 소중한 공기와 물을</p>
 					<p>최상의 상태로 변환하여 온 인류의 건강과 행복에<br class="m_break"> 꼭 필요한 제품을 제조하는 대기환경 및 수질환경<br class="m_break"> 개선 전문회사입니다.</p>
 				</div>
 				<hr style="width: 100%"/>
@@ -61,10 +61,10 @@
 						<span class="col-md-6">
 							<ul>
 								<li><strong>대기 중 (초)미세먼지 중화</strong></li>
-								<li><strong>인체의 동석 분해(Detox) · 면역력 증강</strong></li>
+								<li><strong>인체의 독성 분해(Detox) · 면역력 증강</strong></li>
 								<li><strong>공기정화로 상쾌함 제공</strong></li>
 								<li><strong>강력한 살균력과 탈취력</strong></li>
-								<li><strong>지구 온난화 현상 예방</strong></li>
+								<li><strong>지구온난화현상 예방</strong></li>
 							</ul>
 						</span>
 					</div>
@@ -74,7 +74,7 @@
 					</h2>
 					<div style="padding-bottom: 5%;" class="row text-center">
 						<span class="col-md-6">
-							<strong style="display: block; padding: 5% 0;"><h3>공기살균탈취시스템</h3></strong>
+							<strong style="display: block; padding: 5% 0;"><h3>실내공기질 개선</h3></strong>
 							<img src="/img/intro_1.png">
 							<!-- <img> -->
 						</span>

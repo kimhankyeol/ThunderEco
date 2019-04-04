@@ -101,7 +101,7 @@ ul li a h5 {
 				<div style="max-width:100%;">
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
-					<p>100,000원</p>
+					<!-- <p>100,000원</p> -->
 					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
 				</div>
 			</div>
@@ -246,7 +246,7 @@ ul li a h5 {
 												<span class="col-lg-6" style="align-self: center; padding-bottom:initial;"> 
 												<b style="font-size: 200%;">우</b>리의 인체에 어떠한 일을 하나요?<br class="m_break"> 
 												<br class="pc_break"> 
-												혈관의 긴장, 응고, 염증, 산화등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
+												혈관의 긴장, 응고, 염증, 산화 등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
 												<br class="pc_break">
 												혈관의 건강을 지키는 <b>핵심물질</b>입니다.</span>
 											</div>
@@ -254,29 +254,29 @@ ul li a h5 {
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">대</b>부분 사람들은 심혈관계 기능을 부드럽게 <br class="m_break"> 유지하기 위해 충분한 산화질소를 <br class="m_break">생성하지 못하고 있습니다.<br class="m_break">
 											<br class="pc_break">
-											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
+											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전 등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
 											<br class="pc_break">
-											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야합니다.</span>
+											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야 합니다.</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide.png" style="height: auto; width: 100%; " /></div>
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">산</b><b>화질소</b>는 낮 동안 활동할 때 활발히 생성이 되지만 <br class="m_break"> 밤에는 활발히 생성하지 못합니다 <br class="m_break">
 											<br class="pc_break">
-											운동할 때 가장 활발히 생성이되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜줍니다. <br class="m_break">
+											운동할 때 가장 활발히 생성이 되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜 줍니다. <br class="m_break">
 											<br class="pc_break">
-											혈액순환을 원활히 하여 산소를 더 빨리 공급해줌으로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
+											혈액순환을 원활히 하여 산소를 더 빨리 공급해 주므로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
 											<br class="pc_break">
 											나이가 들수록 산화질소는 적게 생성이 됩니다. <br class="m_break">
 											<br class="pc_break">
-											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50%가량 떨어집니다.</b> <br class="m_break">
+											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50% 가량 떨어집니다.</b> <br class="m_break">
 											<br class="pc_break">
 											산화질소가 부족하면 혈관이 손상을 입고 이로	<br class="m_break"> 인해 발생하는 <b>심혈관 질환은</b> <br class="m_break">
 											<br class="pc_break">
-											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은<br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
+											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은 <br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
 											</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide2.png" style="height: auto; width: 100%;" /></div>
-										<div style="display: initial;"><img src="/img/Plasma.jpg" style="height: auto; width: 100%;" /></div>
+										<div style="display: initial;"><img src="/img/Plasma.png" style="height: auto; width: 100%;" /></div>
 										<div class="col-lg-12">
 											<hr>
 										</div>

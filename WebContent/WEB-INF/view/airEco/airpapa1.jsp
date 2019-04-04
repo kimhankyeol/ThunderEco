@@ -145,48 +145,69 @@ ul li a h5 {
 									<br class="pc_break">
 									수산기와 다량의 산소이온을 만들어<br class="m_break"> 탁월한 공기정화 기능, 초미세먼지를<br class="m_break"> 중화시키고 제거								
 								</h5>
-								<div class="row" style="padding-top:20px;">
-									<table class="effect-table">
-										<tbody>
-											<tr>
-												<td style="font-size: 300%; text-align:center; width:20%;">
-													<b>1</b>
-												</td>
-												<td>
-													<b>새집, 헌집 증후군 물질 제거</b>
-													<p>암모니아, 폼알데히드, 자일렌,<br class="m_break"> 톨루엔 등 유해물질을 제거하여<br class="m_break"> 증상 완화</p>
-												</td>
-											</tr>
-											<tr>
-												<td style="font-size: 300%; text-align:center;">
-													<b>2</b>
-												</td>
-												<td>
-													<b>바이러스 및 병원성 세균 살균</b>
-													<p>슈퍼박테리아, 폐렴균, 대장균,<br class="m_break"> 황색포도상구균, 녹농균, 곰팡이균등 99.9% 살균</p>
-												</td>
-											</tr>
-											<tr>
-												<td style="font-size: 300%; text-align:center;">
-													<b>3</b>
-												</td>
-												<td>
-													<b>다량의 음이온(산소이온) 발생</b>
-													<p>초미세먼지제거, 저항력 증가,<br class="m_break"> 혈액정화 작용</p>
-												</td>
-											</tr>
-										</tbody>
-									</table>
+								<div class="container">
+									<div class="row" style="padding-top:20px;">
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #5c9cfd;">
+											<h3 style="color: white;">숨막히는 <br class="m_break">(초)미세먼지 제거</h3>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px;">
+											<p>
+												최상의 실재공기질을 유지하며,<br class="m_break"> 이산화탄소(CO₂)를 감소시키는 탁월한<br class="m_break">
+												<br class="pc_break">
+												기능과 공기살균으로 상쾌한 호흡을 하여<br class="m_break"> 호흡기 질환 예방 효과가 있습니다.
+											</p>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #d89f00;">
+											<h3 style="color: white;">안티에이징(항노화) <br class="m_break">피부관리 효과</h3>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px;">
+											<p>
+												피부독성제거, 피부살균효과, 아토피 개선, <br class="m_break">상처, 피부 화상 등 피부의
+												<br class="pc_break"> 
+												면역세포를 <br class="m_break">활성화하여 살균과 함께 <br class="m_break">피부트러블 개선 효과가 있습니다.
+											</p>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #d02626;">
+											<h3 style="color: white;">비염 알러지 개선 효과</h3>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px;">
+											<p>
+												AIR PAPA에서 방출되는 공기를<br class="m_break"> 매일 흡입하시면
+												<br class="pc_break"> 
+												비염 알레르기 개선효과를 <br class="m_break">뚜렷이 느끼실 수 있습니다.
+											</p>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #4d9605;">
+											<h3 style="color: white;">인체의 불쾌한 냄새 제거</h3>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px;">
+											<p>
+												노인 냄새 또는 몸에서 나는 불쾌한 냄새를 <br class="m_break">제거하는 효과가 있으며,
+												<br class="pc_break">  
+												깨끗한 몸 냄새를<br class="m_break"> 유지시켜 드립니다.
+											</p>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #888888;">
+											<h3 style="color: white;">인체의 면역력 강화 효과</h3>
+										</div>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px;">
+											<p>
+												산화질소의 흡입으로 두뇌를 맑게 하며, <br class="m_break">인체의 세포 활성화로 
+												<br class="pc_break"> 
+												해독 기능과 함께 <br class="m_break">면역력을 강화하여 질병감염예방에 <br class="m_break">효과가 있습니다.
+											</p>
+										</div>
+									</div>
 								</div>
 							</section>
 							<!-- 주요 적용/설치 장소 -->
 							<section style="padding:0;">
 								<div class="container">
 									<div class="row">
-										<div class="col-lg-12">
+										<!-- <div class="col-lg-12">
 											<hr>
-										</div>
-										<div class="col-lg-12" style="text-align:center;">
+										</div> -->
+										<!-- <div class="col-lg-12" style="text-align:center;">
 											<h2 style="padding:20px;">주요 적용 · 설치 장소</h2>
 										</div>
 										<div class="col-lg-12">
@@ -228,7 +249,7 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
 											<img src="/img/detailAirpapa3.jpg" style="width:100%;"/>
-										</div>
+										</div> -->
 										<div class="col-lg-12">
 											<hr>
 										</div>
@@ -243,7 +264,7 @@ ul li a h5 {
 												<span class="col-lg-6" style="align-self: center; padding-bottom:initial;"> 
 												<b style="font-size: 200%;">우</b>리의 인체에 어떠한 일을 하나요?<br class="m_break"> 
 												<br class="pc_break"> 
-												혈관의 긴장, 응고, 염증, 산화등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
+												혈관의 긴장, 응고, 염증, 산화 등 <br class="m_break"> 4가지 필수과정으로 유지되는데 <br class="m_break">
 												<br class="pc_break">
 												혈관의 건강을 지키는 <b>핵심물질</b>입니다.</span>
 											</div>
@@ -251,29 +272,29 @@ ul li a h5 {
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">대</b>부분 사람들은 심혈관계 기능을 부드럽게 <br class="m_break"> 유지하기 위해 충분한 산화질소를 <br class="m_break">생성하지 못하고 있습니다.<br class="m_break">
 											<br class="pc_break">
-											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
+											내피조직이 <b>나이, 건강에 나쁜습관, 질병, 독성환경, <br class="m_break">유전 등</b>에 의해 손상되어 산화질소의 생성 능력이 <br class="m_break">떨어지기 때문입니다.<br class="m_break">
 											<br class="pc_break">
-											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야합니다.</span>
+											따라서 산화질소의 증진방법으로 혈관내피에 충분한 <br class="m_break">산화질소가 생성되도록 하여야 합니다.</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide.png" style="height: auto; width: 100%; " /></div>
 										<div style="text-align: center; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<span style="line-height: 35px;"><b style="font-size: 200%;">산</b><b>화질소</b>는 낮 동안 활동할 때 활발히 생성이 되지만 <br class="m_break"> 밤에는 활발히 생성하지 못합니다 <br class="m_break">
 											<br class="pc_break">
-											운동할 때 가장 활발히 생성이되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜줍니다. <br class="m_break">
+											운동할 때 가장 활발히 생성이 되며 혈관을 확장시켜 <br class="m_break"> 혈류와 유연성을 증가시켜 줍니다. <br class="m_break">
 											<br class="pc_break">
-											혈액순환을 원활히 하여 산소를 더 빨리 공급해줌으로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
+											혈액순환을 원활히 하여 산소를 더 빨리 공급해 주므로 <br class="m_break"> 혈전을 녹이고 피가 굳는 것을 예방합니다. <br class="m_break">
 											<br class="pc_break">
 											나이가 들수록 산화질소는 적게 생성이 됩니다. <br class="m_break">
 											<br class="pc_break">
-											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50%가량 떨어집니다.</b> <br class="m_break">
+											누구나 40세 이상이 되면 20대와 비교하였을 때 <br class="m_break"> 혈액 순환이 <b>50% 가량 떨어집니다.</b> <br class="m_break">
 											<br class="pc_break">
 											산화질소가 부족하면 혈관이 손상을 입고 이로	<br class="m_break"> 인해 발생하는 <b>심혈관 질환은</b> <br class="m_break">
 											<br class="pc_break">
-											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은<br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
+											한국인의 사망 원인 2위 질환이고, 미국인 2명당 1명은 <br class="m_break">심혈관계 질환으로 사망하는 무서운 질환입니다. <br class="m_break">
 											</span>
 										</div>
 										<div><img src="/img/Nitrogen_oxide2.png" style="height: auto; width: 100%;" /></div>
-										<div style="display: initial;"><img src="/img/Plasma.jpg" style="height: auto; width: 100%;" /></div>
+										<div style="display: initial;"><img src="/img/Plasma.png" style="height: auto; width: 100%;" /></div>
 										<div class="col-lg-12">
 											<hr>
 										</div>
