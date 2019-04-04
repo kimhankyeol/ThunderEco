@@ -3,13 +3,13 @@
 <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Bootstrap Select-->
     <link rel="stylesheet" href="/css/bootstrap-select.min.css">
     <!-- Price Slider Stylesheets -->
     <link rel="stylesheet" href="/css/nouislider.css">
     <!-- Custom font icons-->
-    <link rel="stylesheet" href="/css/custom-fonticons.css">
+    <!-- <link rel="stylesheet" href="/css/custom-fonticons.css"> -->
     <!-- Google fonts - Poppins-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700">
     <!-- owl carousel-->
@@ -27,5 +27,5 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

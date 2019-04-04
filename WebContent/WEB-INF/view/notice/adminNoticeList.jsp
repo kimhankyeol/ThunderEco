@@ -40,16 +40,21 @@ function page(i){
 </script>
 <style>
 .checkdel {
-	display: inline-block;
+/* 	display: inline-block;
     width: 58%;
-    text-align: right;
+    text-align: right; */
+    position : absolute;
+    top:13px;
+    right:0px;
 }
 @media (max-width: 992px) {
 	.checkdel {
-	    display: inline-block;
+/* 	    display: inline-block;
    		width: 100%;
     	padding: 7px;
-    	text-align: center;
+    	text-align: center; */
+    	position : absolute;
+    	top: 51px;
 	}
 }
 </style>

@@ -52,18 +52,19 @@
 						<span class="col-md-6">
 							<ul>
 								<li><strong>강력한 활성 파동 에너지 생성</strong></li>
-								<li><strong>고농도 산화질소(NO) 생성</strong></li>
+								<li><strong>고농도 산화질소(Nitric Oxide) 생성</strong></li>
 								<li><strong>다량의 산소이온(음이온) 생성</strong></li>
 								<li><strong>OH- Radical 생성</strong></li>
-								<li><strong>이산화탄소(CO2) 저감으로<br class="m_break"> 지구 온난화 현상 예방</strong></li>
+								<li><strong>이산화탄소(CO2) 저감</strong></li>
 							</ul>
 						</span>
 						<span class="col-md-6">
 							<ul>
 								<li><strong>대기 중 (초)미세먼지 중화</strong></li>
-								<li><strong>인체의 동석 분해(Detox)</strong></li>
+								<li><strong>인체의 동석 분해(Detox) · 면역력 증강</strong></li>
 								<li><strong>공기정화로 상쾌함 제공</strong></li>
-								<li><strong>강력한 살균 탈취력</strong></li>
+								<li><strong>강력한 살균력과 탈취력</strong></li>
+								<li><strong>지구 온난화 현상 예방</strong></li>
 							</ul>
 						</span>
 					</div>
