@@ -1,0 +1,14 @@
+*/target/*
+
+.metadata/
+
+/Servers/*
+
+.classpath
+
+.project
+
+.settings/*
+
+pom.xml
+/target/
