@@ -323,7 +323,7 @@
                     type: "file",
                     id: "upload",
                     label: d.lang.image.btnUpload,
-                    style: "height:40px",
+                    style: "height:80px",
                     size: 38
                 }, {
                     type: "fileButton",
