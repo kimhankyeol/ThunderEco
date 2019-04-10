@@ -91,7 +91,7 @@ ul li a h5 {
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
 					<!-- <p>100,000원</p> -->
-					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
+					<a href="#" class="btn btn-template wide shop-now">문의하기</a>
 				</div>
 			</div>
 		</div>
@@ -120,22 +120,23 @@ ul li a h5 {
 										고농도악취<br class="m_break">제거시스템
 									</h1>
 									<h5>
-										썬더볼트방전시스템과 활성이온수<br class="m_break"> 생성기술 및 마이크로버블 기술이<br class="pc_break"><br class="m_break">
-										융합된 환경난제를 해결할 <br class="m_break">미래지향형 신기술
+										썬더볼트방전과 마이크로버불수를 <br class="m_break">이용한 악취제거시스템
 									</h5>
 								</div>
 							</div>
 						</div>
+						<div style="position: relative;top: 60px;background: #00000050;color:#ffffff;"class="col-lg-12 text-center"> 
+							<h6>특허출원번호 : 10-2019-0031463</h6>
+							<h6>발명의 명칭 : 썬더볼트방전과 마이크로버블수를<br class="m_break"> 이용한 악취제거시스템</h6>
+						</div>
 					</div>
 					<!-- 제품 영향 -->
 					<section style="padding:50px 0;">
-						<h4 style="text-align:center; display: block;">
-							고농도악취제거시스템의 영향
-						</h4>
 						<h5 style="text-align:center; display: block;">
-							악취제거 뿐만 아니라 대기 중 또는 <br class="m_break">실내공기질을 크게 개선하여<br class="m_break">
-							<br class="pc_break">
-							인체의 해독·면역기능 <br class="m_break">강화에 기여합니다.
+							고농도악취제거시스템에서  전계 강도가<br class="m_break"> 15-20eV인 강력한 에너지가 생성되어 <br class="m_break"><br class="pc_break">
+							공기와 접촉, 해리, 여기, 이온화,<br class="m_break"> 산화 환원을 10-8~10-12sec에 폭발적으로<br class="m_break"> 반응하여 고농도의 플라즈마를 생성하며,<br class="m_break"><br class="pc_break">
+							이를 물 탱크에 강제 투입, 마이크로 버블을<br class="m_break"> 통하여 물 분자를 미세하게 분해하는<br class="m_break"> 과정에<br class="pc_break"> 
+							고농도의 OH- Radical로 <br class="m_break">변환, 고압 안개 분사를 통하여 암모니아,<br class="m_break"> 황화수소 등 오염된 대기의 악취물질을 <br class="m_break">제거합니다.<br class="pc_break"> 							
 						</h5>
 						<div class="row" style="padding-top:20px;">
 							<table class="effect-table">
@@ -145,8 +146,8 @@ ul li a h5 {
 											<b>1</b>
 										</td>
 										<td>
-											<b>실내 공기질 개선 및 강력한<br class="m_break"> 살균작용</b>
-											<p>바이러스 감염 예방 및 스트레스성 <br class="m_break">장기 기능 저하 예방</p>
+											<b>고농도악취제거시스템에서<br class="m_break"> 생성되는 강력한 에너지로<br class="m_break"> 대기 중 악취제거</b>
+											<p>강력한 에너지가 오염 공기와 접촉,<br class="m_bre ak"> 오염 공기 속 22종 악취물질의<br class="m_break"> 공유결합을 분해하여 제거</p>
 										</td>
 									</tr>
 									<tr>
@@ -154,9 +155,8 @@ ul li a h5 {
 											<b>2</b>
 										</td>
 										<td>
-											<b>강력한 항산화제(SOD)인<br class="m_break"> 산화질소(NO) 발생</b>
-											<p>체내 활성산소 수치를 저하시키며,<br class="m_break"> 혈관을 확장</p>
-											<small>신진대사를 촉진하며 면역체계 기능을 강화 <br class="m_break"> 성인병(질병)을 예방</small>
+											<b>마이크로버블기와의 융합기술로<br class="m_break"> 고도로 정화 및 활성화된<br class="m_break"> 마이크로버블수</b>
+											<p>강력한 유기물질 분해력으로 뛰어난<br class="m_break"> 탈취력 및 바이러스와 세균의 <br class="m_break">살균력을 지닌 마이크로버블수 생산</p>
 										</td>
 									</tr>
 									<tr>
@@ -164,20 +164,8 @@ ul li a h5 {
 											<b>3</b>
 										</td>
 										<td>
-											<b>신진대사 촉진 및 면역체계<br class="m_break"> 기능 강화</b>
-											<p>악취제거시스템의 기능에 의한 <br class="m_break">활성산소 수치 저하, 혈관 순화 촉진</p>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" style="text-align:center;">
-											<small style="color: red;">
-											음용수의 경우 수중에 산화질소를 클로이드 상태로 <br class="m_break">
-											유지하여 흡입함으로 공기 흡입보다 2배 이상의 효과를 <br class="m_break">
-											단시간 내에 볼 수 있습니다.
-											</small>
-											<small>
-											(출처 : 1998년 노벨생리의학상 수상자 루이스 <br class="m_break">이그나로박사 논문 중 발췌)
-											</small>
+											<b>마이크로버블수를 악취발생장소에 마이크로 분사(또는 나노 분사)하여 악취제거</b>
+											<p>오염된 공기에 고도로 정화된 <br class="m_break">마이크로버블수를 고압<br class="m_break"> 안개분사하여 악취 제거</p>
 										</td>
 									</tr>
 								</tbody>

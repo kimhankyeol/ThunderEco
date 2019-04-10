@@ -102,7 +102,7 @@ ul li a h5 {
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
 					<!-- <p>100,000원</p> -->
-					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
+					<a href="#" class="btn btn-template wide shop-now">문의하기</i></a>
 				</div>
 			</div>
 		</div>
@@ -129,13 +129,13 @@ ul li a h5 {
 									<div class="row">
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
 											<h5>
-												고농도 산화질소를 담은 플라즈마 생성을 통해<br class="m_break"> 식품 숙성고, 저장고를 위한 살균 탈취기
+												식품 숙성고, 저장고를 위한 최고의 선물
 											</h5>
 											<h1>
 												에어파파515
 											</h1>
 											<h5>
-												공기정화, 악취 저감, 신성도 유지,  부패 방지<br class="m_break">
+												저장고 살균탈취기
 											</h5>
 										</div>
 									</div>
@@ -144,9 +144,11 @@ ul li a h5 {
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
 								<h5 style="text-align:center; display: block;">
-									에어파파의 강력한 살균력은 모든 저장고, 지하찰고에 걸쳐 사용할 수 있고,<br class="m_break">
+									강력한 살균∙탈취 기능을 가진 에어파파(AIR PAPA) 515는 으뜸위생 ! 으뜸안전! 장소에 필수입니다.<br class="m_break">
 									<br class="pc_break">
-									오존이 없어 안전하며, 유지비가 매우 저렴합니다.<br class="m_break">								
+									세균제로, 악취제로, 오존제로, 곰팡이제로<br class="m_break">
+									<br class="pc_break">
+									대장균 등 모든 세균으로부터 안전하여 식품으로 인한 식중독을 예방합니다.<br class="m_break">								
 								</h5>
 								<div class="row" style="padding-top:20px;">
 									<table class="effect-table">
@@ -156,8 +158,10 @@ ul li a h5 {
 													<b>1</b>
 												</td>
 												<td>
-													<b>다량의 산소이온과 고농도 산화질소를 포함하는 플라즈마 생성</b>
-													<p>식재료(육류, 생성류, 계란 등)의 신성도 유지 및 보존기간을 크게 향상시키는데 도움을 줌<br class="m_break"></p>
+													<b>저장고 내 공기정화 및 살균</b>
+													<p>저장고 내의 병원성 대장균, 식중독유발균 등 살균 소독<br class="m_break"></p>
+													<p>모든 식재료의 신선도 증가<br class="m_break"></p>
+													<p>육류, 생선류, 채소류, 과일 등 신선한 상태로 장기 보관<br class="m_break"></p>
 												</td>
 											</tr>
 											<tr>
@@ -165,8 +169,9 @@ ul li a h5 {
 													<b>2</b>
 												</td>
 												<td>
-													<b>공기 중의 병원성 세균, 바이러스 등 99.9% 살균</b>
-													<p>일일 24시간 이온화된 공기정화(OH-Radical, [O]) 순환<br class="m_break"></p>
+													<b>저장고 내의 불쾌한 냄새 제거</b>
+													<p>저장고 내의 오염된 물질 제거<br class="m_break"></p>
+													<p>식재료에 묻어있는 오염물질 제거<br class="m_break"></p>
 												</td>
 											</tr>
 											<tr>
@@ -174,8 +179,9 @@ ul li a h5 {
 													<b>3</b>
 												</td>
 												<td>
-													<b>강력한 에너지로 유해 가스를 파괴</b>
-													<p>독성가스, 질소산화물, 곰팡이 독소 및 포자<br class="m_break">화학 가스 등을 파괴 및 중화</p>
+													<b>저장고 내 부패 방지</b>
+													<p>저장고와 식재료의 곰팡이 발생 방지<br class="m_break"></p>
+													<p>지하창고, 서적창고, 예술품창고 내 곰팡이 제거<br class="m_break"></p>
 												</td>
 											</tr>
 											<tr>
@@ -183,8 +189,8 @@ ul li a h5 {
 													<b>4</b>
 												</td>
 												<td>
-													<b>인체 유해 물질을 제거</b>
-													<p>황사, 초 미세먼지, 집먼지 진드기, 연기<br class="m_break">,악취, 휘발성 유기화합물, 에틸렌 등 제거 또는 비활성화</p>
+													<b>식재료의 잔류농약 분해</b>
+													<p>채소, 쌀, 과일 등 잔류농약 분해<br class="m_break"></p>
 												</td>
 											</tr>
 										</tbody>
@@ -208,7 +214,7 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>저장고, 숙성고 내부의 공기 정화</h2><br/>
+												<h2>저장고 내 공기정화 및 살균</h2><br/>
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -219,9 +225,7 @@ ul li a h5 {
 										</div>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>식재료 일체의 신선도 증가</h2><br/>
-												채소, 쌀, 과일 등 식재료의 잔류 농약 분해 및<br class="m_break"> 보관기간 연장, 부패 방지<br class="pc_break">
-												
+												<h2>저장고 내 불쾌한 냄새 제거</h2><br/>
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
@@ -233,13 +237,23 @@ ul li a h5 {
 										<hr>
 										<div class="col-lg-6 text-vertical">
 											<span>
-												<h2>저장고, 숙성고의 내부 살균 소독</h2><br/>
-												식재료 및 저장고의 곰팡이 발생방지<br class="m_break">식재료의 세균 살균 및 불쾌한 냄새 제거<br class="pc_break">
-												
+												<h2>저장고 내 부패 방지</h2><br/>
 											</span>
 										</div>
 										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
 											<img src="/img/disinfectWash3.jpg" style="width:100%;"/>
+										</div>
+										<div class="col-lg-12">
+											<hr>
+										</div>
+										<hr>
+										<div class="col-lg-6 text-vertical">
+											<span>
+												<h2>식재료의 잔류농약 분해</h2><br/>
+											</span>
+										</div>
+										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
+											<img src="/img/disinfectWash4.jpg" style="width:100%;"/>
 										</div>
 										<div class="col-lg-12">
 											<hr>

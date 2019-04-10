@@ -90,7 +90,7 @@ ul li a h5 {
 					<p>상품 고유번호</p>
 					<h2 class="h1 text-uppercase no-margin">상품정보</h2>
 					<!-- <p>100,000원</p> -->
-					<a href="#" class="btn btn-template wide shop-now">문의하기<i class="icon-bag"></i></a>
+					<a href="#" class="btn btn-template wide shop-now">문의하기</a>
 				</div>
 			</div>
 		</div>
@@ -117,26 +117,24 @@ ul li a h5 {
 									<div class="row">
 										<div style="color:#ffffff;"class="col-lg-12 text-center">
 											<h5>
-												악취가 강한 축산 폐수를<br class="m_break"> 액체 비료화하여<br class="m_break"> 오염물질 배출이 없는 <br class="m_break"> 친환경 축산 폐수 처리 시스템
+												축산폐수의 액체비료화와 방류의 친환경처리시스템
 											</h5>
 											<h1>
 												축산 폐수<br class="m_break"> 처리 공법
 											</h1>
 											<h5>
-												악취 저감, 살균 탈취,<br class="m_break">오염물질 액체 비료화
+												악취 저감, 살균 탈취,<br class="m_break">폐수 수질개선
 											</h5>
 										</div>
 									</div>
 								</div>
+								<div style="position: relative;top: 60px;background: #00000050;color:#ffffff;"class="col-lg-12 text-center"> 
+									<h6>특허출원번호 : 10-2019-0031457</h6>
+									<h6>발명의 명칭 : 썬더볼트방전과 마이크로버블수를 이용한 오폐수정화 처리시스템</h6>
+								</div>
 							</div>
 							<!-- 제품 효과 -->
 							<section style="padding:50px 0;">
-								<h5 style="text-align:center; display: block;">
-								TDO(Thunder nano bubble and<br class="m_break"> Dissolved Oxygen Control system)란?	<br class="pc_break"><br class="m_break">
-									썬더볼트 방전의 마이크로 버블 기술과 <br class="m_break">산소 용해 기술이 융합되어 <br class="m_break">
-									<br class="pc_break">
-									새로운 형태의 환경 난제를 해결하는<br class="m_break"> 미래지향형 신기술							
-								</h5>
 								<div class="row" style="padding-top:20px;">
 									<table class="effect-table">
 										<tbody>
@@ -145,8 +143,9 @@ ul li a h5 {
 													<b>1</b>
 												</td>
 												<td>
-													<b>고농도 축산 폐수처리</b>
-													<p>BOD 13,000 ~ 18,000mg/L의 <br class="m_break"> 고농도 축산폐수처리 -> <br class="m_break"> 350ppm이하로 대폭 낮춤<br class="m_break"></p>
+													<b>용존산소(DO) 농도 조절 및 살균</b>
+													<p>① 축산폐수를 마이크로버블수화하여 용존산소(DO)의 농도 조절</p>
+													<p>② OH- Radical의 생성으로 사상균 등 곰팡이균을 강력하게 살균하여 용존산소 농도 유지</p>
 												</td>
 											</tr>
 											<tr>
@@ -154,8 +153,9 @@ ul li a h5 {
 													<b>2</b>
 												</td>
 												<td>
-													<b>친환경 순환 처리 시스템</b>
-													<p>축산폐수에서 발생한 악취를  자체 정화 후 액체비료화 하여 <br class="m_break">에너지 자원절약 및  2차 오염물질 배출이 없는 <br class="m_break"> 친환경 처리 시스템 </p>
+													<b>BOD 농도를 현저히 낮추어서 액체비료화</b>
+													<p>① 축산폐수처리공법으로 20,000ppm 전후의 오폐수 농도를 300ppm 이하로 낮추어서 액체비료화</p>
+													<p>② 1차 처리 후 융합기술공법과 연동하여 50ppm 이하로 낮춘 후 2차 처리하여 방류 가능</p>
 												</td>
 											</tr>
 											<tr>
@@ -163,8 +163,9 @@ ul li a h5 {
 													<b>3</b>
 												</td>
 												<td>
-													<b>처리기간 단축</b>
-													<p>TDO 공법을 통한  해리, 여기, 이온화, 산화, 환원 반응으로  <br class="m_break"> 강력한 촉진 및 처리 기간 단축</p>
+													<b>악취저감 및 색도 보정</b>
+													<p>① 강력한 에너지에 의해 폐수 중의 고농도 악취물질을 분해하여 제거</p>
+													<p>② 다양한 유기물의 분해에 의한 색도 보정</p>
 												</td>
 											</tr>
 											<tr>
@@ -172,12 +173,36 @@ ul li a h5 {
 													<b>4</b>
 												</td>
 												<td>
-													<b>유지관리비 저렴</b>
-													<p>TDO 공법을 통한 응집제 무사용으로  약품비가 없으며<br class="m_break"> 기존 축산 폐수처리장의 공정 파괴로 초기 투자비 절감</p>
+													<b>친환경처리시스템</b>
+													<p>① 축산폐수에서 발생되는 악취를 자체 정화</p>
+													<p>② 최소의 전기에너지 사용으로 자원절약</p>
+													<p>③ 별도의 2차 오염물질 배출이 없는 친환경 공법</p>
 												</td>
 											</tr>
 										</tbody>
 									</table>
+								</div>
+								<div class="container">
+									<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #5c9cfd;">
+										<h4 style="color: white;">돈사축산폐수 처리시설 구성도 (예)</h4>
+									</div>
+									<div class="row">
+										<img src="/img/waterTreatment4.png" style="margin-left: auto;margin-right: auto;"/>
+									</div>
+									<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #5c9cfd;">
+										<h4 style="color: white;">돈사축산폐수처리 PILOT 시험성적서</h4>
+									</div>
+									<div class="row">
+										
+										<div class="col-lg-6 text-vertical">
+											<img src="/img/waterTreatment5.png" style="width:100%;margin-left: auto;margin-right: auto;"/>
+										</div>
+										<div class="col-lg-6 text-vertical">
+											<h4 style="text-align: center;">수질성적서</h4>
+											<img src="/img/waterTreatment6.png" style="width:100%;margin-left: auto;margin-right: auto;"/>
+										</div>
+										
+									</div>
 								</div>
 							</section>
 							<!-- 주요 적용/설치 장소 -->
@@ -194,46 +219,36 @@ ul li a h5 {
 										<div class="col-lg-12">
 											<hr>
 										</div>
-										<div class="col-lg-6 text-vertical">
-											<span>
-												<h2>BOD  97.3% ~ 98.5%<br class="m_break"> 감소</h2><br/>
-												- 13,000 ~ 18,000mg/L의 오폐수 농도를 350mg/L 이하로 감소<br class="m_break"><br class="pc_break"><br/>
-											</span>
+																				
+										<div class="col-lg-6 text-vertical" style="text-align:center; float:left; width:50%;">
+											<h4 style="line-height: 300%;">축산폐수처리장<h4>
+											<h4 style="line-height: 300%;">공장폐수처리장<h4>
+											<h4 style="line-height: 300%;">쓰레기 매립장<h4>
+											<h4 style="line-height: 300%;">하수처리장<h4>
+											<h4 style="line-height: 300%;">음식물 침출수 처리장<h4>
+											<h4 style="line-height: 300%;">식품회사 폐수처리장<h4>
+											<h4 style="line-height: 300%;">골프장 하수처리장<h4>
 										</div>
-										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/waterTreatment2.jpg" style="width:100%;"/>
-										</div>
-										<div class="col-lg-12">
-											<hr>
-										</div>
-											<div class="col-lg-6 text-vertical">
-											<span>
-												<h2>DO(용존산소) 농도 조절 <br class="m_break">및 살균</h2>
-												- 산소용해기에 의한 용존산소 농도 조절<br class="m_break"><br class="pc_break">
-												- 폐수에 포함된 악취물질 분해에 용이<br class="m_break"><br class="pc_break">
-												- OH-Radical에 의한 부패균 등 모든 균의 살균에 도움<br class="m_break"><br class="pc_break"><br/>
-											</span>
-										</div>
-										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/waterTreatment1.jpg" style="width:100%;"/>
+										<div style="float:left; width:50%;">
+											<div style="padding-right:0px; padding-left:0px;">
+												<img src="/img/waterTreatment2.jpg" style="width:100%;"/>
+												<img src="/img/waterTreatment1.jpg" style="width:100%;"/>
+												<img src="/img/waterTreatment3.jpg" style="width:100%;"/>
+											</div>
 										</div>
 										<div class="col-lg-12">
-											<hr>
+											<hr>	
 										</div>
-											<div class="col-lg-6 text-vertical">
-											<span>
-												<h2>악취 저감 및 색도 보정</h2><br class="m_break"><br class="pc_break">
-												- 오폐수의 악취 물질을 분해, 악취 대폭 절감<br class="m_break"><br class="pc_break">
-												- OH-Radical에 의한 색도 보정<br class="m_break"><br class="pc_break">
-											</span>
-										</div>
-										<div class="col-lg-6" style="padding-right:0px; padding-left:0px;">
-											<img src="/img/waterTreatment3.jpg" style="width:100%;"/>
+										<div class="col-lg-12" style="text-align: center; padding-top:10px; background-color: #5c9cfd;">
+											<h4 style="color: white;">경기도 화성시 OO농장 축산폐수처리장치 설치 모습</h4>
 										</div>
 										<div class="col-lg-12">
-											<hr>
+											<img src="/img/waterTreatment7.png" style="width:100%;margin-left: auto;margin-right: auto;"/>
+											<img src="/img/waterTreatment8.png" style="width:100%;margin-left: auto;margin-right: auto;"/>
 										</div>
-																		
+										<div class="col-lg-12">
+											<hr>	
+										</div>						
 										<!-- 산화질소 -->
 										<div style="background-color: #bfdaeb; padding-top: 30px; padding-bottom: 30px; width:100%;">
 											<div class="col-lg-12 row" style="padding-right: 0px; margin-right: 0px; margin-left: 0px;">
