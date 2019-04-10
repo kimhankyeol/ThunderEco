@@ -137,9 +137,9 @@ public class NoticeService implements INoticeService{
 	
 	//1대1 문의 답변 등록
 	@Override
-	public int insertAnswer(NoticeDTO nDTO) throws Exception {
+	public int updateqna(NoticeDTO nDTO) throws Exception {
 		// TODO Auto-generated method stub
-		return noticeMapper.insertAnswer(nDTO);
+		return noticeMapper.updateqna(nDTO);
 	}
 
 	@Override

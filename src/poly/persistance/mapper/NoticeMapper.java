@@ -68,7 +68,7 @@ public interface NoticeMapper {
 	public NoticeDTO getQnaDetail(NoticeDTO nDTO) throws Exception;
 
 	//1대1 문의 답변 등록
-	public int insertAnswer(NoticeDTO nDTO) throws Exception;
+	public int updateqna(NoticeDTO nDTO) throws Exception;
 
 	//1대1 문의 사용자 질문 목록
 	public List<NoticeDTO> getCsConfirmNoticeList(HashMap<String, Object> hMap) throws Exception;

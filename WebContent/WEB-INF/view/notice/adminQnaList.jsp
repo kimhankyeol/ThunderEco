@@ -76,7 +76,7 @@ function page1(i){
 		</div>
 		
 		<div class="noticeStyle1">
-			<div style="background-color: #f9f9f9;"><b><a style="color:black;text-align: left">번호</a></b></div>
+			<div style="background-color: #f9f9f9;"><b><a style="color:black;text-align: left">답변여부</a></b></div>
 			<div style="background-color: #f9f9f9;"><b><a style="color:black;text-align: left">제목</a></b></div>
 			<div style="background-color: #f9f9f9;"><b><a style="color:black">작성자</a></b></div>
 			<div style="background-color: #f9f9f9;"><b><a style="color:black">작성일</a></b></div>
@@ -84,7 +84,11 @@ function page1(i){
 		</div>
 	<%for (int i=0 ; i<nList.size(); i++){ %>
 			<div class="noticeStyle2">
-				<div><b><%=nList.get(i).getQnaNo()%></b></div>
+			<%if(nList.get(i).getQnaComplete().equals("0")){%>
+				<div><b>미답변</b></div>
+			<%} else {%>
+				<div><b>답변완료</b></div>
+			<%}%>
 				<div onclick="javascript:qnaDetail('<%=nList.get(i).getQnaNo()%>')"><b><%=nList.get(i).getNoticeTitle()%></b></div>
 				<div><%=nList.get(i).getUserName() %></div>
 				<div><%=DateUtil.DateFormatter(nList.get(i).getRegDate().toString())%></div>

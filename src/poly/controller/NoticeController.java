@@ -1,6 +1,7 @@
 package poly.controller;
 
 
+import java.io.Console;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -229,14 +230,14 @@ public class NoticeController {
 		String qnaNo = req.getParameter("qnaNo");
 		NoticeDTO nDTO = new NoticeDTO();
 		nDTO.setQnaNo(qnaNo);
-		
+		log.info("qnaNO :"+ qnaNo);
 		nDTO = noticeService.getQnaDetail(nDTO);
 		model.addAttribute("nDTO",nDTO);
 		return "/notice/qnaDetail";
 	}
 	
 	//1대1 문의 답변 화면
-	@RequestMapping(value="/qnaAnswer")
+/*	@RequestMapping(value="/qnaAnswer")
 	public String qnaAnswer(HttpServletRequest req,Model model) throws Exception{
 		String qnaNo = req.getParameter("qnaNo");
 		NoticeDTO nDTO = new NoticeDTO();
@@ -245,8 +246,36 @@ public class NoticeController {
 		model.addAttribute("nDTO",nDTO);
 		return "/notice/qnaAnswer";
 	}
-	//1대1문의 이메일 전송
+*/
+	//1대1 문의 답변완료
 	@RequestMapping(value="/answerProc")
+	public String answerProc(HttpServletRequest req,Model model) throws Exception{
+		
+		String qnaNo = req.getParameter("qnaNo");
+		log.info("qnaNO :"+ qnaNo);
+		NoticeDTO nDTO = new NoticeDTO();
+		nDTO.setQnaNo(qnaNo);
+		nDTO = noticeService.getQnaDetail(nDTO);
+		
+		int result  = noticeService.updateqna(nDTO);
+		
+		String msg = "";
+		String url = "";
+		if(result==1) {
+			msg = "1:1문의 답변등록 하였습니다.";
+			url = "//adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
+			model.addAttribute("msg",msg);
+			model.addAttribute("url",url);
+		}else {
+			msg = "1:1문의 답변등록 실패 하였습니다.";
+			url = "//adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
+			model.addAttribute("msg",msg);
+			model.addAttribute("url",url);
+		}
+		return "alert";
+	}
+	//1대1문의 이메일 전송
+/*	@RequestMapping(value="/answerProc")
 	public String answerProc(HttpServletRequest req,Model model) throws Exception{
 		req.setCharacterEncoding("utf-8");
 		String qnaNo = req.getParameter("qnaNo");
@@ -305,7 +334,7 @@ public class NoticeController {
 	
 		return "alert";
 	}
-	
+*/	
 	//1대1 문의 확인 검색 화면
 	@RequestMapping(value="/notice/counselView")
 	public String counselConfirm(HttpServletRequest req,Model model) throws Exception{
@@ -823,14 +852,14 @@ public class NoticeController {
 		for (int i = 0; i<imgList.size();i++) {
 		
 			//기존에 있는 폴더에서 비교
-			compFile=imgList.get(i).toString().replace("http://thunder-echo.co.kr/noticeUpdImg/", "");
+			compFile=imgList.get(i).toString().replace("http://thundereco.co.kr/noticeUpdImg/", "");
 			File file = new File(req.getSession().getServletContext().getRealPath("/noticeUpdImg/")+compFile);
 			boolean isExists = file.exists();
 			if(isExists) {
 				System.out.println("파일 존재 "+fileName);
 			}
 			else {
-				fileName=imgList.get(i).toString().replace("http://thunder-echo.co.kr/tempImg/", "");
+				fileName=imgList.get(i).toString().replace("http://thundereco.co.kr/tempImg/", "");
 				System.out.println("파일 존재하지 않음 "+fileName);
 				StringUtil.fileMove(tempPath+fileName, newFilePath+fileName);
 				nDTO.setNoticeContent(content.replaceAll("tempImg","noticeUpdImg"));

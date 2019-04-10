@@ -8,59 +8,59 @@ import poly.dto.PagingDTO;
 
 public interface INoticeService {
 
-	//ê³µì??‚¬?•­ ?“±ë¡?
+	//ê³µï¿½??ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½ï¿½?
 	public int insertNotice(NoticeDTO nDTO) throws Exception;
 
-	//ê³µì??‚¬?•­ ?ƒ?„¸
+	//ê³µï¿½??ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½
 	public NoticeDTO getNoticeDetail(NoticeDTO nDTO) throws Exception;
 
-	//ê³µì??‚¬?•­ ?ˆ˜? •
+	//ê³µï¿½??ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½
 	public int updateNotice(NoticeDTO nDTO) throws Exception;
 
 	
-	//ê³µì??‚¬?•­ ë¦¬ìŠ¤?Š¸ ?˜?´ì§? 
-	//ì´? ì¹´ìš´?Š¸
+	//ê³µï¿½??ï¿½ï¿½?ï¿½ï¿½ ë¦¬ìŠ¤?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ï¿½? 
+	//ï¿½? ì¹´ìš´?ï¿½ï¿½
 	public int getNoticeListTotalCount() throws Exception;
 	public List<NoticeDTO> getNoticeList(HashMap<String, Integer> hMap) throws Exception;
 	public int updateNoticeCount(String noticeNo) throws Exception;
 
 	public NoticeDTO getAdminLogin(NoticeDTO nDTO) throws Exception;
-	//?‚´?š©ê²??ƒ‰ ?˜?´ì§?
+	//?ï¿½ï¿½?ï¿½ï¿½ï¿½??ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ï¿½?
 	public List<NoticeDTO> getNoticeSearchList(HashMap<String, Object> hMap) throws Exception;
-	//?‚´?š© ê²??ƒ‰ ì´? ê°œìˆ˜
+	//?ï¿½ï¿½?ï¿½ï¿½ ï¿½??ï¿½ï¿½ ï¿½? ê°œìˆ˜
 	public int getNoticeListSearchTotalCount(HashMap<String, Object> hMap) throws Exception;
-	//? œëª? ê²??ƒ‰ ?˜?´ì§?
+	//?ï¿½ï¿½ï¿½? ï¿½??ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ï¿½?
 	public List<NoticeDTO> getNoticeSearchTitleList(HashMap<String, Object> hMap) throws Exception;
-	//? œëª? ê²??ƒ‰ ì´? ê°œìˆ˜
+	//?ï¿½ï¿½ï¿½? ï¿½??ï¿½ï¿½ ï¿½? ê°œìˆ˜
 	public int getNoticeListSearchTitleCount(HashMap<String, Object> hMap) throws Exception;
-	//ê³µì??‚¬?•­ ?‚­? œ
+	//ê³µï¿½??ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½
 	public int deleteNotice(NoticeDTO nDTO) throws Exception;
 
-	//1??1ë¬¸ì˜ ?“±ë¡?
+	//1??1ë¬¸ì˜ ?ï¿½ï¿½ï¿½?
 	public int insertQNA(NoticeDTO nDTO) throws Exception;
 	
-	//1??1 ë¬¸ì˜ ë¦¬ìŠ¤?Š¸
+	//1??1 ë¬¸ì˜ ë¦¬ìŠ¤?ï¿½ï¿½
 	public List<NoticeDTO> getAdminQnaList(HashMap<String, Integer> hMap) throws Exception;
 
-	//1??1 ë¬¸ì˜ ì´? ê°œìˆ˜
+	//1??1 ë¬¸ì˜ ï¿½? ê°œìˆ˜
 	public int getQnaListTotalCount() throws Exception;
 
-	//1??1 ë¬¸ì˜ ê²??ƒ‰ ê°œìˆ˜
+	//1??1 ë¬¸ì˜ ï¿½??ï¿½ï¿½ ê°œìˆ˜
 	public int getAdminQnaListSearchTotalCount(HashMap<String, Object> hMap) throws Exception;
 	
-	//1??1 ë¬¸ì˜ ê²??ƒ‰ ë¦¬ìŠ¤?Š¸
+	//1??1 ë¬¸ì˜ ï¿½??ï¿½ï¿½ ë¦¬ìŠ¤?ï¿½ï¿½
 	public List<NoticeDTO> getAdminQnaSearchList(HashMap<String, Object> hMap) throws Exception;
 
-	//1??1 ë¬¸ì˜ ?ƒ?„¸ë³´ê¸°
+	//1??1 ë¬¸ì˜ ?ï¿½ï¿½?ï¿½ï¿½ë³´ê¸°
 	public NoticeDTO getQnaDetail(NoticeDTO nDTO) throws Exception;
 
-	//1??1 ë¬¸ì˜ ?‹µë³? ?“±ë¡?
-	public int insertAnswer(NoticeDTO nDTO) throws Exception;
+	//1??1 ë¬¸ì˜ ?ï¿½ï¿½ï¿½? ?ï¿½ï¿½ï¿½?
+	public int updateqna(NoticeDTO nDTO) throws Exception;
 
-	//1??1 ë¬¸ì˜ ê²??ƒ‰ ?›„ ë¦¬ìŠ¤?Š¸
+	//1??1 ë¬¸ì˜ ï¿½??ï¿½ï¿½ ?ï¿½ï¿½ ë¦¬ìŠ¤?ï¿½ï¿½
 	public List<NoticeDTO> getCsConfirmNoticeList(HashMap<String, Object> hMap) throws Exception;
 
-	//1??1 ë¬¸ì˜ ?‚¬?š©? ê²??ƒ‰ ê°œìˆ˜
+	//1??1 ë¬¸ì˜ ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ï¿½??ï¿½ï¿½ ê°œìˆ˜
 	public int getCsConfirmListTotalCount(HashMap<String, Object> hMap) throws Exception;
 
 

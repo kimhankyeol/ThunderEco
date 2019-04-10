@@ -133,9 +133,9 @@
 							<li>
 								<a href="/notice/counsel.do" class="dropdown-item">1:1 문의</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="/notice/counselView.do" class="dropdown-item">1:1 문의 내용 확인</a>
-							</li>
+							</li> -->
 						<%} %>
 						</ul>
 					</li>

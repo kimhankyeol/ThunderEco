@@ -26,9 +26,16 @@ public class NoticeDTO {
 	 private String mobile;
 	 private String email;
 	 private String qnaNo;
+	 private String qnaComplete;
 	 
 	 
 	 
+	public String getQnaComplete() {
+		return qnaComplete;
+	}
+	public void setQnaComplete(String qnaComplete) {
+		this.qnaComplete = qnaComplete;
+	}
 	public String getQnaNo() {
 		return qnaNo;
 	}

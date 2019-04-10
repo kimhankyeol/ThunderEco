@@ -90,7 +90,7 @@ VALUES (#{noticeTitle},#{noticeContent},#{classfication},#{mobile},#{email},#{us
 </insert>
 <!-- 1대1문의 리스트 -->
  <select id="getAdminQnaList" parameterType="map" resultType="NoticeDTO">
-	SELECT qnaNo,title AS noticeTitle,classfication,userName,regDate FROM QNA ORDER BY qnaNo desc limit #{pagenum},#{contentnum}
+	SELECT qnaNo,title AS noticeTitle,classfication,userName,regDate,qnaComplete FROM QNA ORDER BY qnaNo desc limit #{pagenum},#{contentnum}
 </select> 
 <!-- 1대1 문의 총개수 -->
 <select id="getQnaListTotalCount" resultType="java.lang.Integer">
@@ -109,10 +109,14 @@ VALUES (#{noticeTitle},#{noticeContent},#{classfication},#{mobile},#{email},#{us
 	SELECT qnaNo , title AS noticeTitle, content AS noticeContent , regDate, classfication,userName,email,mobile FROM QNA WHERE qnaNo=#{qnaNo}
 </select>
 <!-- 1대1 문의 답변 등록 -->
-<insert id="insertAnswer" parameterType="NoticeDTO">
-INSERT INTO ANSWER (answerContent,qnaNo,regDate) 
-VALUES (#{noticeContent},#{qnaNo},now())
-</insert>
+<update id ="updateqna" parameterType="NoticeDTO">
+	UPDATE qna
+	SET
+	qnaComplete=1
+	WHERE
+	qnaNo=#{qnaNo}
+</update>
+
 <!-- 1대1문의 검색후 리스트 t -->
  <select id="getCsConfirmNoticeList" parameterType="map" resultType="NoticeDTO">
 	SELECT qnaNo,title AS noticeTitle,classfication,userName,regDate,email,mobile FROM QNA  WHERE userName=#{userName} and mobile=#{mobile} and email=#{email} ORDER BY qnaNo desc limit #{pagenum},#{contentnum}

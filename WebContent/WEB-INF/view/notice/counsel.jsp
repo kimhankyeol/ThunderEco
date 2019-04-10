@@ -72,6 +72,25 @@
 			<div class="counselColback">
 				<textarea class="counselColback" name="content" id="content" rows="10" cols="80"></textarea>
 			</div>
+			
+			<div class="">
+				<h5 class="">[필수] 개인정보 수집.이용 동의</h5>
+				<p>썬더에코(주)는 고객님들의 의견 접수와 관련하여 성실한 답변을 드리기 위해 필요한 최소한의 개인정보를 수집하고 있습니다.</p>
+				<ul class="">
+					<li>수집 항목 : 이름, 이메일, 휴대전화</li>
+					<li>수집 및 이용목적 : 접수 문의에 대한 답변/안내</li>
+					<li>보유 및 이용기간 : 수집∙이용 목적 달성 시 까지</li>
+				</ul>
+
+				<p class="">※ 문의에 대한 답변을 위해서 필요한 최소한의 개인정보 이므로 동의를 해 주셔야 서비스를 이용하실 수 있습니다.</p>
+
+				<p class="">위 사항에 동의하십니까?</p>
+				<ul class="">
+					<li><input type="radio" id="agree1" name="agree" value="Y"> <label for="agree1">동의</label></li>
+					<li><input type="radio" id="agree2" name="agree" value="N"> <label for="agree2">동의하지 않음</label></li>
+				</ul>
+			</div>
+			
 			<div style="text-align:center; padding:15px;">
 				<input type="button" id="ntIns" class="cart-black-button"  value="등록">
 				<input type="button" onclick="javascript:back()" class="cart-black-button" style="background: rgba(0, 0, 0, 0.50);" value="돌아가기"/>
