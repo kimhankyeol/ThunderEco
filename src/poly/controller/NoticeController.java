@@ -230,7 +230,6 @@ public class NoticeController {
 		String qnaNo = req.getParameter("qnaNo");
 		NoticeDTO nDTO = new NoticeDTO();
 		nDTO.setQnaNo(qnaNo);
-		log.info("qnaNO :"+ qnaNo);
 		nDTO = noticeService.getQnaDetail(nDTO);
 		model.addAttribute("nDTO",nDTO);
 		return "/notice/qnaDetail";
@@ -263,12 +262,12 @@ public class NoticeController {
 		String url = "";
 		if(result==1) {
 			msg = "1:1문의 답변등록 하였습니다.";
-			url = "//adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
+			url = "/adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
 			model.addAttribute("msg",msg);
 			model.addAttribute("url",url);
 		}else {
 			msg = "1:1문의 답변등록 실패 하였습니다.";
-			url = "//adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
+			url = "/adminQnaList.do?pagenum=1&contentnum=10&classfication=all";
 			model.addAttribute("msg",msg);
 			model.addAttribute("url",url);
 		}

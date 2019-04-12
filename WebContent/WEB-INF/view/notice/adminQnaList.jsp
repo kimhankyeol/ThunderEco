@@ -85,9 +85,9 @@ function page1(i){
 	<%for (int i=0 ; i<nList.size(); i++){ %>
 			<div class="noticeStyle2">
 			<%if(nList.get(i).getQnaComplete().equals("0")){%>
-				<div><b>미답변</b></div>
+				<div>미답변</div>
 			<%} else {%>
-				<div><b>답변완료</b></div>
+				<div style="background:#aaaaaa30;"><b style="color:black;">답변완료</b></div>
 			<%}%>
 				<div onclick="javascript:qnaDetail('<%=nList.get(i).getQnaNo()%>')"><b><%=nList.get(i).getNoticeTitle()%></b></div>
 				<div><%=nList.get(i).getUserName() %></div>

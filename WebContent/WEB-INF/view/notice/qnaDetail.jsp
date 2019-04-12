@@ -64,29 +64,29 @@ function qnaDetail(){
 		<%=nDTO.getNoticeContent() %>
 	</div>
 </div>
-	<%if(userName.equals("관리자")){ %>
- <div class="container">
- 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
- 		<div style="text-align:center; padding:15px;">
-			<input type="button" class="cart-black-button" onclick="javascript:qnaAnswer()" value="답변완료">
-			<input type="button" class="cart-black-button" onclick="javascript:qnaList()" style="background: rgba(0, 0, 0, 0.50)" value="돌아가기">
+	<%if(userName.equals("관리자")){ 
+		if(nDTO.getQnaComplete().equals("1")){ %>
+		 <div class="container">
+		 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
+				<div style="text-align:center; padding:15px;"><input type="button" class="cart-black-button" onclick="qnaDetail()" value="돌아가기"></div>
+			</div>
 		</div>
-	</div>
-</div>
-<%} else if(nDTO.getQnaComplete().equals("1")){ %>
- <div class="container">
- <input type="text" value="<%=nDTO.getQnaComplete() %>" />
- 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
-		<div style="text-align:center; padding:15px;"><input type="button" class="cart-black-button" onclick="qnaDetail()" value="돌아가기"></div>
-	</div>
-</div>
-<%}else{ %>
- <div class="container">
- 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
-		<div style="text-align:center; padding:15px;"><input type="button" class="cart-black-button" onclick="qnaDetail()" value="돌아가기"></div>
-	</div>
-</div>
-<%} %>
+	<%} else {%>
+		 <div class="container">
+		 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
+		 		<div style="text-align:center; padding:15px;">
+					<input type="button" class="cart-black-button" onclick="javascript:qnaAnswer()" value="답변완료">
+					<input type="button" class="cart-black-button" onclick="javascript:qnaList()" style="background: rgba(0, 0, 0, 0.50)" value="돌아가기">
+				</div>
+			</div>
+		</div>
+	<%}}else{ %>
+		 <div class="container">
+		 	<div class="width-100" style="border-top: 2px solid #333;padding-top:20px">
+				<div style="text-align:center; padding:15px;"><input type="button" class="cart-black-button" onclick="qnaDetail()" value="돌아가기"></div>
+			</div>
+		</div>
+	<%} %>
 
 <%@ include file="/WEB-INF/view/footer.jsp" %>
 <%@ include file="/WEB-INF/view/bottomJs.jsp" %>
