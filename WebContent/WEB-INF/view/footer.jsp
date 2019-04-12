@@ -19,7 +19,7 @@
 				</div>
 				<div class="newsletter col-lg-6">
 					<h2 style="color: #fff" class="text-uppercase">고객 콜센터</h2>
-					<h4 style="color: #fff">1588 - 1588</h4>
+					<h4 style="color: #fff">02-6959-2813, 2814</h4>
 					<ul class="list-unstyled">
 						<li>평일 AM 09:00 - PM 06:00 (공휴일 휴무)</li>
 					</ul>

@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/noticeList.css">
 <link rel="stylesheet" href="/css/counsel.css">
 <script src="/ckeditor/ckeditor.js"></script>
-<script>
+<!-- <script>
     var editorConfig = {
         filebrowserUploadUrl : "/ckEditor/imgUpload.do", //이미지 업로드
     };
@@ -29,7 +29,7 @@
  window.onload = function(){
       ck = CKEDITOR.replace("content", editorConfig); //editor는 태그 아이디임
  };
-</script>
+</script> -->
 <title>1:1 문의</title>
 </head>
 <body>
@@ -70,7 +70,7 @@
 			</div>
 			<div class="form-group counselCol1">내용</div>
 			<div class="counselColback">
-				<textarea class="counselColback" name="content" id="content" rows="10" cols="80"></textarea>
+				<textarea class="counselColback form-control" name="content" id="content" rows="10" cols="80" style="resize: none; width:100%;"></textarea>
 			</div>
 			
 			<div class="">
@@ -82,7 +82,7 @@
 					<li>보유 및 이용기간 : 수집∙이용 목적 달성 시 까지</li>
 				</ul>
 
-				<p class="">※ 문의에 대한 답변을 위해서 필요한 최소한의 개인정보 이므로 동의를 해 주셔야 서비스를 이용하실 수 있습니다.</p>
+				<p class="" style="color : red;">※ 문의에 대한 답변을 위해서 필요한 최소한의 개인정보 이므로 동의를 해 주셔야 서비스를 이용하실 수 있습니다.</p>
 
 				<p class="">위 사항에 동의하십니까?</p>
 				<ul class="">
