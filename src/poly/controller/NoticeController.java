@@ -58,8 +58,8 @@ public class NoticeController {
 	// 1:1 문의
 	@RequestMapping(value="notice/counsel")
 	public String inquire() throws Exception {
-		log.info(this.getClass() + ".counsel start ~~");
-		log.info(this.getClass() + ".counsel end ~~");
+		//log.info(this.getClass() + ".counsel start ~~");
+		//log.info(this.getClass() + ".counsel end ~~");
 		return "/notice/counsel";
 	}
 	
@@ -68,7 +68,7 @@ public class NoticeController {
 	@RequestMapping(value="notice/counselProc", method=RequestMethod.POST)
 	
 	public String counselProc(HttpServletRequest req, Model model) throws Exception{
-		log.info(this.getClass() + ".counselProc start ~~");
+		//log.info(this.getClass() + ".counselProc start ~~");
 		
 		req.setCharacterEncoding("utf-8");
 		
@@ -93,7 +93,7 @@ public class NoticeController {
 		String urlConPath="";
 		//이동 전에 폴더
 		String tempPath=req.getSession().getServletContext().getRealPath("/tempImg/");
-		log.info("경로 1대1 tempImg:"+tempPath);
+		//log.info("경로 1대1 tempImg:"+tempPath);
 		//이동 후에 폴더
 		String newFilePath=req.getSession().getServletContext().getRealPath("/qnaImg/");
 		String fileName="";
@@ -111,7 +111,7 @@ public class NoticeController {
 		nDTO.setNoticeContent(content.replaceAll("tempImg","qnaImg"));
 		
 		int result = noticeService.insertQNA(nDTO);
-		log.info("result" + result);
+		//log.info("result" + result);
 		String msg = "";
 		String url = "";
 		
@@ -130,16 +130,16 @@ public class NoticeController {
 		}
 		
 		//확인하려면 
-		log.info(this.getClass() + ".counselProc end ~~");
+		//log.info(this.getClass() + ".counselProc end ~~");
 		return "/alert";
 	}
 	//1대1 문의 관리자 리스트
 	@RequestMapping(value="adminQnaList")
 	public String thunderAdminQnaList(HttpServletRequest request, Model model) throws Exception{
 		
-		log.info(this.getClass() + ".adminQnaList start!");
+		//log.info(this.getClass() + ".adminQnaList start!");
     	String classfication = CmmUtil.nvl(request.getParameter("classfication"));
-    	log.info(classfication);
+    	//log.info(classfication);
     	PagingDTO paging = new PagingDTO();
     	int pagenum=Integer.parseInt(request.getParameter("pagenum"));
     	int contentnum = Integer.parseInt(request.getParameter("contentnum"));
@@ -151,7 +151,7 @@ public class NoticeController {
     		paging.setContentnum(contentnum);// 한 페이지에 몇개 씩 게시글을 보여줄지 지정
     		paging.setCurrentblock(pagenum);//현재 페이지 블록이 몇번인지 현재 페이지 번호를 통해서 지정함
     		paging.setLastblock(paging.getTotalcount());//마지막 블록 번호를 전체 게시글 수를 통해 정함
-    		log.info("Last block:"+paging.getTotalcount());
+    		//log.info("Last block:"+paging.getTotalcount());
     		paging.prevnext(pagenum); //현재 페이지 번호로 화살표를 나타낼지 정함
     		paging.setStartPage(paging.getCurrentblock());//시작페이지를 페이지 블록번호로 정함
     		paging.setEndPage(paging.getLastblock(), paging.getCurrentblock());//마지막 페이지를 마지막 페이지 블록과 현재 페이지 블록번호로 정함
@@ -171,27 +171,27 @@ public class NoticeController {
     		model.addAttribute("paging",paging);
     		nList=null;
     		paging=null;
-    		log.info(this.getClass() + ".NoticeList end!");
+    		//log.info(this.getClass() + ".NoticeList end!");
     	}else {
-    		log.info("이거 실행하고 있어");
+    		//log.info("이거 실행하고 있어");
     		HashMap<String, Object> hMap = new HashMap<>();
     		paging.setClassfication(classfication);
     		classfication = paging.getClassfication().toString();
-    		log.info(classfication);
+    		//log.info(classfication);
     		hMap.put("classfication", classfication);
     		
     		//검색하기 위한 변수를 pagingDTO에 선언하고 사용
     		if(classfication.equals("buyItem")) {
     			 totalCount = noticeService.getAdminQnaListSearchTotalCount(hMap);
     			paging.setTotalcount(totalCount);
-    			 log.info("구매 문의 총 개수 "+ totalCount);
+    			 //log.info("구매 문의 총 개수 "+ totalCount);
     		}else if(classfication.equals("scheduleConsult")) {
     			  totalCount = noticeService.getAdminQnaListSearchTotalCount(hMap);
     			 paging.setTotalcount(totalCount);
     		}else if(classfication.equals("as")) {
     			  totalCount = noticeService.getAdminQnaListSearchTotalCount(hMap);
     			 paging.setTotalcount(totalCount);
-    			 log.info("구매 문의 총 개수 "+ totalCount);
+    			 //log.info("구매 문의 총 개수 "+ totalCount);
     		}else if(classfication.equals("refund")) {
     			  totalCount = noticeService.getAdminQnaListSearchTotalCount(hMap);
     			 paging.setTotalcount(totalCount);
@@ -219,7 +219,7 @@ public class NoticeController {
 	    	
 	    		model.addAttribute("nList",nList);
         		model.addAttribute("paging",paging);
-        		log.info(this.getClass() + ".adminQnaList end!");
+        		//log.info(this.getClass() + ".adminQnaList end!");
     	}
 		return "/notice/adminQnaList";
 	}
@@ -251,7 +251,7 @@ public class NoticeController {
 	public String answerProc(HttpServletRequest req,Model model) throws Exception{
 		
 		String qnaNo = req.getParameter("qnaNo");
-		log.info("qnaNO :"+ qnaNo);
+		//log.info("qnaNO :"+ qnaNo);
 		NoticeDTO nDTO = new NoticeDTO();
 		nDTO.setQnaNo(qnaNo);
 		nDTO = noticeService.getQnaDetail(nDTO);
@@ -354,16 +354,16 @@ public class NoticeController {
 		
 		PagingDTO paging = new PagingDTO();
     	int pagenum=Integer.parseInt(req.getParameter("pagenum"));
-    	log.info("pagenum"+pagenum);
+    	//log.info("pagenum"+pagenum);
     	int contentnum = Integer.parseInt(req.getParameter("contentnum"));
-    	log.info("contentnum"+contentnum);
+    	//log.info("contentnum"+contentnum);
 		int totalCount = noticeService.getCsConfirmListTotalCount(hMap);
 		paging.setTotalcount(totalCount);//전체 게시글 지정
 		paging.setPagenum(pagenum-1);// 현재페이지를 페이지 객체에 지정한다 -1 해야 쿼리에서 사용가능
 		paging.setContentnum(contentnum);// 한 페이지에 몇개 씩 게시글을 보여줄지 지정
 		paging.setCurrentblock(pagenum);//현재 페이지 블록이 몇번인지 현재 페이지 번호를 통해서 지정함
 		paging.setLastblock(paging.getTotalcount());//마지막 블록 번호를 전체 게시글 수를 통해 정함
-		log.info("Last block:"+paging.getTotalcount());
+		//log.info("Last block:"+paging.getTotalcount());
 		
 		paging.prevnext(pagenum); //현재 페이지 번호로 화살표를 나타낼지 정함
 		paging.setStartPage(paging.getCurrentblock());//시작페이지를 페이지 블록번호로 정함
@@ -378,7 +378,7 @@ public class NoticeController {
 		hMap.put("contentnum", j);
 		
 		nList = noticeService.getCsConfirmNoticeList(hMap);
-		log.info(nList.size());
+		//log.info(nList.size());
 		// 페이징 정보 전달.
 		
 		model.addAttribute("nList",nList);
@@ -406,7 +406,7 @@ public class NoticeController {
 		nDTO.setPassword(password);
 		
 		nDTO = noticeService.getAdminLogin(nDTO);
-		log.info(nDTO);
+		//log.info(nDTO);
 		
 		if (nDTO!=null) {
 			session.setAttribute("userName",nDTO.getUserName());
@@ -437,10 +437,10 @@ public class NoticeController {
 		@RequestMapping(value="/adminNoticeList")
 		public String adminNoticeList(HttpServletRequest request,Model model) throws Exception{
 			
-			log.info(this.getClass() + ".NoticeList start!");
+			//log.info(this.getClass() + ".NoticeList start!");
 	    	String searchWord = CmmUtil.nvl(request.getParameter("searchWord"));
 	    	String selBox = CmmUtil.nvl(request.getParameter("selBox"));
-	    	log.info("SearchWord"+searchWord);
+	    	//log.info("SearchWord"+searchWord);
 	    	if(searchWord.equals("")&&selBox.equals("")) {
 	    		PagingDTO paging = new PagingDTO();
 	        	int pagenum=Integer.parseInt(request.getParameter("pagenum"));
@@ -451,7 +451,7 @@ public class NoticeController {
 	    		paging.setContentnum(contentnum);// 한 페이지에 몇개 씩 게시글을 보여줄지 지정
 	    		paging.setCurrentblock(pagenum);//현재 페이지 블록이 몇번인지 현재 페이지 번호를 통해서 지정함
 	    		paging.setLastblock(paging.getTotalcount());//마지막 블록 번호를 전체 게시글 수를 통해 정함
-	    		log.info("Last block:"+paging.getTotalcount());
+	    		//log.info("Last block:"+paging.getTotalcount());
 	    		
 	    		paging.prevnext(pagenum); //현재 페이지 번호로 화살표를 나타낼지 정함
 	    		paging.setStartPage(paging.getCurrentblock());//시작페이지를 페이지 블록번호로 정함
@@ -472,9 +472,9 @@ public class NoticeController {
 	    		model.addAttribute("paging",paging);
 	    		nList=null;
 	    		paging=null;
-	    		log.info(this.getClass() + ".NoticeList end!");
+	    		//log.info(this.getClass() + ".NoticeList end!");
 	    	}else {
-	    		log.info("이거 실행하고 있어");
+	    		//log.info("이거 실행하고 있어");
 	    		PagingDTO paging = new PagingDTO();
 	    		//검색하기 위한 변수를 NoticeDTO에 선언하고 사용
 	    	
@@ -487,9 +487,9 @@ public class NoticeController {
 	        	int pagenum=Integer.parseInt(request.getParameter("pagenum"));
 	        	int contentnum = Integer.parseInt(request.getParameter("contentnum"));
 	        	if(selBox.toString().equals("noticeContent")) {
-	        		log.info("이거 실행하고 있어 내용");
+	        		//log.info("이거 실행하고 있어 내용");
 	        		int totalCount = noticeService.getNoticeListSearchTotalCount(hMap);
-	        		log.info("내용 검색  개수 :"+totalCount);
+	        		//log.info("내용 검색  개수 :"+totalCount);
 	        		paging.setTotalcount(totalCount);
 	        		//전체 게시글 지정
 	        		paging.setPagenum(pagenum-1);// 현재페이지를 페이지 객체에 지정한다 -1 해야 쿼리에서 사용가능
@@ -514,10 +514,10 @@ public class NoticeController {
 	        		
 	        		model.addAttribute("nList",nList);
 	        		model.addAttribute("paging",paging);
-	        		log.info(this.getClass() + ".NoticeList end!");
+	        		//log.info(this.getClass() + ".NoticeList end!");
 	        	}else if(selBox.toString().equals("noticeTitle")) {
 	        		int totalCount = noticeService.getNoticeListSearchTitleCount(hMap);
-	        		log.info("제목 검색  개수 :"+totalCount);
+	        		//log.info("제목 검색  개수 :"+totalCount);
 	        		paging.setTotalcount(totalCount);
 	        		//전체 게시글 지정
 	        		paging.setPagenum(pagenum-1);// 현재페이지를 페이지 객체에 지정한다 -1 해야 쿼리에서 사용가능
@@ -542,7 +542,7 @@ public class NoticeController {
 	        		
 	        		model.addAttribute("nList",nList);
 	        		model.addAttribute("paging",paging);
-	        		log.info(this.getClass() + ".NoticeList end!");
+	        		//log.info(this.getClass() + ".NoticeList end!");
 	        	}
 	    	}
 	    	
@@ -569,7 +569,7 @@ public class NoticeController {
 			imgList = StringUtil.getDelImgSrc(nDTO.getNoticeContent());
 			
 			if(imgList.get(0).toString().equals("notValue")) {
-				log.info("파일없음");
+				//log.info("파일없음");
 				result = noticeService.deleteNotice(nDTO);
 			}else {
 				Iterator i1 = imgList.iterator();
@@ -578,7 +578,7 @@ public class NoticeController {
 					File file = new File(newFilePath+compFile);
 					file.delete();
 					result = noticeService.deleteNotice(nDTO);
-					log.info("지워졌나2"+result);
+					//log.info("지워졌나2"+result);
 				}
 				
 			}
@@ -603,10 +603,10 @@ public class NoticeController {
 	//ckeditor 공지사항 리스트
     @RequestMapping(value="/noticeList")
 	public String noticeList(HttpServletRequest request,Model model) throws Exception{
-    	log.info(this.getClass() + ".NoticeList start!");
+    	//log.info(this.getClass() + ".NoticeList start!");
     	String searchWord = CmmUtil.nvl(request.getParameter("searchWord"));
     	String selBox = CmmUtil.nvl(request.getParameter("selBox"));
-    	log.info("SearchWord"+searchWord);
+    	//log.info("SearchWord"+searchWord);
     	if(searchWord.equals("")&&selBox.equals("")) {
     		PagingDTO paging = new PagingDTO();
         	int pagenum=Integer.parseInt(request.getParameter("pagenum"));
@@ -617,7 +617,7 @@ public class NoticeController {
     		paging.setContentnum(contentnum);// 한 페이지에 몇개 씩 게시글을 보여줄지 지정
     		paging.setCurrentblock(pagenum);//현재 페이지 블록이 몇번인지 현재 페이지 번호를 통해서 지정함
     		paging.setLastblock(paging.getTotalcount());//마지막 블록 번호를 전체 게시글 수를 통해 정함
-    		log.info("Last block:"+paging.getTotalcount());
+    		//log.info("Last block:"+paging.getTotalcount());
     		
     		paging.prevnext(pagenum); //현재 페이지 번호로 화살표를 나타낼지 정함
     		paging.setStartPage(paging.getCurrentblock());//시작페이지를 페이지 블록번호로 정함
@@ -638,9 +638,9 @@ public class NoticeController {
     		model.addAttribute("paging",paging);
     		nList=null;
     		paging=null;
-    		log.info(this.getClass() + ".NoticeList end!");
+    		//log.info(this.getClass() + ".NoticeList end!");
     	}else {
-    		log.info("이거 실행하고 있어");
+    		//log.info("이거 실행하고 있어");
     		PagingDTO paging = new PagingDTO();
     		//검색하기 위한 변수를 NoticeDTO에 선언하고 사용
     	
@@ -653,9 +653,9 @@ public class NoticeController {
         	int pagenum=Integer.parseInt(request.getParameter("pagenum"));
         	int contentnum = Integer.parseInt(request.getParameter("contentnum"));
         	if(selBox.toString().equals("noticeContent")) {
-        		log.info("이거 실행하고 있어 내용");
+        		//log.info("이거 실행하고 있어 내용");
         		int totalCount = noticeService.getNoticeListSearchTotalCount(hMap);
-        		log.info("내용 검색  개수 :"+totalCount);
+        		//log.info("내용 검색  개수 :"+totalCount);
         		paging.setTotalcount(totalCount);
         		//전체 게시글 지정
         		paging.setPagenum(pagenum-1);// 현재페이지를 페이지 객체에 지정한다 -1 해야 쿼리에서 사용가능
@@ -680,11 +680,11 @@ public class NoticeController {
         		
         		model.addAttribute("nList",nList);
         		model.addAttribute("paging",paging);
-        		log.info(this.getClass() + ".NoticeList end!");
+        		//log.info(this.getClass() + ".NoticeList end!");
         	}else if(selBox.toString().equals("noticeTitle")) {
-        		log.info("이거 실행하고 있어 제목");
+        		//log.info("이거 실행하고 있어 제목");
         		int totalCount = noticeService.getNoticeListSearchTitleCount(hMap);
-        		log.info("제목 검색  개수 :"+totalCount);
+        		//log.info("제목 검색  개수 :"+totalCount);
         		paging.setTotalcount(totalCount);
         		//전체 게시글 지정
         		paging.setPagenum(pagenum-1);// 현재페이지를 페이지 객체에 지정한다 -1 해야 쿼리에서 사용가능
@@ -709,7 +709,7 @@ public class NoticeController {
         		
         		model.addAttribute("nList",nList);
         		model.addAttribute("paging",paging);
-        		log.info(this.getClass() + ".NoticeList end!");
+        		//log.info(this.getClass() + ".NoticeList end!");
         	}
     	}
     	
@@ -728,7 +728,7 @@ public class NoticeController {
     	req.setCharacterEncoding("utf-8");
 		
 		
-		log.info(this.getClass() + "ckInsert Start!!!");
+		//log.info(this.getClass() + "ckInsert Start!!!");
 		String title = CmmUtil.nvl(req.getParameter("title"));
 		
 		// 파일명을 뽑아오기 위해 태그변환
@@ -772,7 +772,7 @@ public class NoticeController {
 			model.addAttribute("url",url);
 		}
 		
-		log.info(this.getClass() + "ckInsert End!!!");
+		//log.info(this.getClass() + "ckInsert End!!!");
 		
 		return "alert";
     	
@@ -806,7 +806,7 @@ public class NoticeController {
   //공지사항 수정
     @RequestMapping(value="/noticeUpdate")
     public String noticeUpdate(HttpServletRequest req,NoticeDTO nDTO,NoticeDTO nDTO2,Model model)throws Exception{
-    	log.info(this.getClass() + "공지사항 수정 시작");
+    	//log.info(this.getClass() + "공지사항 수정 시작");
     	
     	//1.nDTO2에 수정하기 전 img src 를 불러와 content2 에 저장
     	String noticeNo = req.getParameter("noticeNo");
@@ -903,7 +903,7 @@ public class NoticeController {
 			model.addAttribute("url",url);
 		}
 	
-		log.info(this.getClass() + "공지사항 수정 끝");
+		//log.info(this.getClass() + "공지사항 수정 끝");
 		
 		return "/alert";
     }
@@ -912,7 +912,7 @@ public class NoticeController {
     //ckEditor 파일업로드
     @RequestMapping(value="/ckEditor/imgUpload")
     public void communityImageUpload(HttpServletRequest request, HttpServletResponse response, @RequestParam MultipartFile upload) {
-    	log.info(this.getClass() + "시작인가?");
+    	//log.info(this.getClass() + "시작인가?");
         OutputStream out = null;
         PrintWriter printWriter = null;
         response.setCharacterEncoding("utf-8");
@@ -930,7 +930,7 @@ public class NoticeController {
     		reFileName=now+extended;
     		//이동 임시로 업로드할 폴더
     		String tempPath=request.getSession().getServletContext().getRealPath("/tempImg/");
-    		log.info(request.getSession().getServletContext()+"확인중");
+    		//log.info(request.getSession().getServletContext()+"확인중");
     		//업로드한 파일을 바이트 배열로 변환
             byte[] bytes = upload.getBytes();
             String uploadPath = tempPath+reFileName;//배포 경로 저장경로
@@ -971,7 +971,7 @@ public class NoticeController {
                 e.printStackTrace();
             }
         }
-    	log.info(this.getClass() + " 끝인가?");
+    	//log.info(this.getClass() + " 끝인가?");
         return;
     }
 }
