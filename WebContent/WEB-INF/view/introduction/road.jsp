@@ -9,7 +9,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta name="robots" content="all,follow">
 	   <%@ include file="/WEB-INF/view/topCssJs.jsp"%>
-	    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c449b1cbc3c291def2d6edada3e87082"></script>
+	    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=68919046bf708b29247612e9ec6a914f"></script>
 	</head>
 	<body>
 	<!-- top -->
@@ -30,7 +30,7 @@
               <ul class="list-unstyled">
                 <li><strong>주소 : </strong><p>서울특별시 금천구 가산디지털2로 18, 6층 601-1호(가산동, 대륭아파트형공장)<p></li>
                 <!-- <li><strong>지번 주소 : </strong><p>서울특별시 금천구 가산동 327-24 <br class="m_break">대륭테크노타운1차, 6층 601-1호</p></li> -->
-                <li><strong>전화 : </strong><p>02-6959-2813, 2814</p></li>
+                <li><strong>전화 : </strong><p>02-6959-2814</p></li>
               </ul>
             </div>
           </div>
