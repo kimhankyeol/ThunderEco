@@ -104,11 +104,13 @@
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a id="navbarInfoLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
+						<a id="navbarInfoLink" href="/patents/patents.do"  aria-haspopup="true" class="nav-link">
 							Patents
 						</a>
-						<!-- <ul aria-labelledby="navbarDropdownInfoLink" class="dropdown-menu">
-						
+<!-- 					<ul aria-labelledby="navbarDropdownInfoLink" class="dropdown-menu">
+							<li>
+								<a href="/patents/patents.do" class="dropdown-item">특허</a>
+							</li>
 						</ul> -->
 					</li>
 					<li class="nav-item dropdown">

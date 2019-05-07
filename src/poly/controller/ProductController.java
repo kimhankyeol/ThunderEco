@@ -95,6 +95,14 @@ public class ProductController {
 		//log.info(this.getClass() + " airEco/airpapaEnd!!!");
 		return "/livingEco/toolWash";
 	}
+	// 특허
+	@RequestMapping(value = "/patents/patents")
+	public String patents(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		//log.info(this.getClass() + " airEco/airpapa Start!!!");
+		//log.info(this.getClass() + " airEco/airpapaEnd!!!");
+		return "/patents/patents";
+	}
+	
 	
 	//준비중입니다.
 	@RequestMapping(value= "/ready")
